@@ -1,0 +1,1378 @@
+2018/09/26 16:51:23 [emerg] 11232#11232: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:51:23 [emerg] 11232#11232: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:51:23 [emerg] 11232#11232: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:51:23 [emerg] 11232#11232: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:51:23 [emerg] 11232#11232: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:51:23 [emerg] 11232#11232: still could not bind()
+2018/09/26 16:53:11 [error] 11696#11696: *1 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 16:53:49 [error] 11696#11696: *2 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 16:54:09 [error] 11696#11696: *3 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 16:56:13 [error] 11696#11696: *4 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 16:57:02 [error] 11696#11696: *5 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 16:57:35 [error] 11696#11696: *6 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 16:57:43 [emerg] 12341#12341: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:57:43 [emerg] 12341#12341: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:57:43 [emerg] 12341#12341: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:57:43 [emerg] 12341#12341: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:57:43 [emerg] 12341#12341: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 16:57:43 [emerg] 12341#12341: still could not bind()
+2018/09/26 17:02:38 [error] 11696#11696: *7 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 17:03:11 [error] 11696#11696: *8 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 17:05:01 [error] 11696#11696: *9 "/root/restyroot/html/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/26 17:09:13 [emerg] 13097#13097: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 17:09:13 [emerg] 13097#13097: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 17:09:13 [emerg] 13097#13097: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 17:09:13 [emerg] 13097#13097: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 17:09:13 [emerg] 13097#13097: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2018/09/26 17:09:13 [emerg] 13097#13097: still could not bind()
+2018/09/26 17:12:46 [notice] 13623#13623: signal process started
+2018/09/26 17:14:40 [notice] 13892#13892: signal process started
+2018/09/26 17:15:06 [notice] 14026#14026: signal process started
+2018/09/26 17:15:13 [notice] 14069#14069: signal process started
+2018/09/26 17:16:06 [error] 14154#14154: *2 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 09:15:04 [notice] 26167#26167: signal process started
+2018/09/27 09:15:08 [error] 26170#26170: *3 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 09:15:55 [notice] 26343#26343: signal process started
+2018/09/27 09:16:00 [error] 26344#26344: *5 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 09:16:08 [error] 26344#26344: *6 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 09:16:16 [notice] 26478#26478: signal process started
+2018/09/27 09:16:33 [error] 26563#26563: *1 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 09:29:09 [notice] 27060#27060: signal process started
+2018/09/27 09:29:13 [notice] 27102#27102: signal process started
+2018/09/27 09:29:13 [error] 27102#27102: open() "/root/restyroot/logs/nginx.pid" failed (2: No such file or directory)
+2018/09/27 09:30:17 [notice] 27236#27236: signal process started
+2018/09/27 09:30:17 [error] 27236#27236: open() "/root/restyroot/logs/nginx.pid" failed (2: No such file or directory)
+2018/09/27 09:30:37 [notice] 27319#27319: signal process started
+2018/09/27 09:30:37 [error] 27319#27319: open() "/root/restyroot/logs/nginx.pid" failed (2: No such file or directory)
+2018/09/27 09:30:39 [notice] 27361#27361: signal process started
+2018/09/27 09:30:39 [error] 27361#27361: open() "/root/restyroot/logs/nginx.pid" failed (2: No such file or directory)
+2018/09/27 09:31:46 [notice] 27454#27454: signal process started
+2018/09/27 09:31:46 [error] 27454#27454: invalid PID number "" in "/root/restyroot/logs/nginx.pid"
+2018/09/27 09:33:53 [notice] 27782#27782: signal process started
+2018/09/27 09:33:53 [error] 27782#27782: invalid PID number "" in "/root/restyroot/logs/nginx.pid"
+2018/09/27 09:38:30 [error] 28394#28394: *1 failed to load external Lua file "/root/restyroot/../lua/hello_world.lua": cannot open /root/restyroot/../lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 09:42:01 [notice] 28684#28684: signal process started
+2018/09/27 09:43:56 [notice] 28998#28998: signal process started
+2018/09/27 09:44:08 [error] 29001#29001: *7 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 09:44:16 [error] 29001#29001: *9 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 09:56:33 [emerg] 29507#29507: unknown directive "ngx.log("Hi." in /root/restyroot/conf/nginx.conf:18
+2018/09/27 09:57:21 [notice] 29641#29641: signal process started
+2018/09/27 09:57:25 [error] 29644#29644: *10 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 10:01:01 [error] 29644#29644: *11 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 10:01:07 [notice] 30015#30015: signal process started
+2018/09/27 10:01:09 [error] 30018#30018: *12 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 10:01:18 [notice] 30148#30148: signal process started
+2018/09/27 10:01:20 [error] 30151#30151: *13 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 10:01:51 [error] 30151#30151: *14 failed to load external Lua file "/root/restyroot/./lua/hello_world.lua": cannot open /root/restyroot/./lua/hello_world.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 10:03:55 [notice] 30421#30421: signal process started
+2018/09/27 10:04:00 [error] 30424#30424: *15 lua entry thread aborted: runtime error: /root/restyroot/./lua/hello_world.lua:1: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/root/restyroot/./lua/hello_world.lua:1: in function </root/restyroot/./lua/hello_world.lua:1>, client: 127.0.0.1, server: , request: "GET /myfile HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 10:04:23 [notice] 30554#30554: signal process started
+2018/09/27 10:38:18 [emerg] 31193#31193: "location" directive is not allowed here in /root/restyroot/conf/nginx.conf:29
+2018/09/27 10:39:12 [notice] 31288#31288: signal process started
+2018/09/27 10:39:21 [error] 31291#31291: *17 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 11:38:13 [error] 31291#31291: *18 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 11:54:28 [notice] 32649#32649: signal process started
+2018/09/27 11:54:42 [error] 32652#32652: *19 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 11:58:59 [notice] 527#527: signal process started
+2018/09/27 11:59:31 [notice] 754#754: signal process started
+2018/09/27 12:00:28 [notice] 933#933: signal process started
+2018/09/27 14:28:52 [alert] 2714#2714: lua_code_cache is off; this will hurt performance in /root/restyroot/conf/nginx.conf:8
+2018/09/27 14:28:52 [notice] 2714#2714: signal process started
+2018/09/27 14:28:52 [alert] 28393#28393: lua_code_cache is off; this will hurt performance in /root/restyroot/conf/nginx.conf:8
+2018/09/27 14:33:53 [alert] 3059#3059: lua_code_cache is off; this will hurt performance in /root/restyroot/conf/nginx.conf:8
+2018/09/27 14:33:53 [notice] 3059#3059: signal process started
+2018/09/27 14:33:53 [alert] 28393#28393: lua_code_cache is off; this will hurt performance in /root/restyroot/conf/nginx.conf:8
+2018/09/27 14:36:19 [alert] 3300#3300: lua_code_cache is off; this will hurt performance in /root/restyroot/conf/nginx.conf:8
+2018/09/27 14:36:19 [notice] 3300#3300: signal process started
+2018/09/27 14:36:19 [alert] 28393#28393: lua_code_cache is off; this will hurt performance in /root/restyroot/conf/nginx.conf:8
+2018/09/27 14:38:08 [notice] 3437#3437: signal process started
+2018/09/27 14:38:12 [error] 3440#3440: *22 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 14:43:41 [notice] 3623#3623: signal process started
+2018/09/27 14:43:43 [error] 3626#3626: *23 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 14:44:09 [notice] 3749#3749: signal process started
+2018/09/27 14:44:16 [error] 3752#3752: *24 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 14:44:19 [notice] 3882#3882: signal process started
+2018/09/27 14:44:28 [error] 3885#3885: *25 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 14:45:17 [notice] 4018#4018: signal process started
+2018/09/27 14:45:19 [error] 4020#4020: *26 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 14:47:30 [notice] 4165#4165: signal process started
+2018/09/27 14:47:32 [error] 4168#4168: *27 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 14:47:56 [notice] 4292#4292: signal process started
+2018/09/27 14:47:58 [error] 4295#4295: *28 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 14:50:51 [error] 4295#4295: *29 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 14:50:59 [notice] 4531#4531: signal process started
+2018/09/27 14:51:01 [error] 4534#4534: *30 no resolver defined to resolve sun.datasection.com, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:14:13 [notice] 4915#4915: signal process started
+2018/09/27 15:14:14 [error] 4916#4916: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 15:14:19 [error] 4916#4916: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 15:14:24 [error] 4916#4916: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 15:14:29 [error] 4916#4916: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 15:14:47 [error] 4916#4916: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 15:14:52 [notice] 5082#5082: signal process started
+2018/09/27 15:14:54 [error] 5085#5085: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 15:14:59 [error] 5085#5085: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 15:15:04 [error] 5085#5085: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 15:15:46 [notice] 5258#5258: signal process started
+2018/09/27 15:15:49 [error] 5261#5261: *36 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:16:05 [error] 5261#5261: *37 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:16:08 [notice] 5585#5585: signal process started
+2018/09/27 15:16:10 [error] 5588#5588: *38 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:18:12 [notice] 5739#5739: signal process started
+2018/09/27 15:18:15 [error] 5742#5742: *39 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:18:40 [notice] 5864#5864: signal process started
+2018/09/27 15:18:42 [error] 5867#5867: *40 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:24:15 [emerg] 6052#6052: "access_log" directive is not allowed here in /root/restyroot/conf/nginx.conf:4
+2018/09/27 15:24:18 [error] 5867#5867: *41 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:26:42 [error] 5867#5867: *42 invalid URL prefix in "http://", client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:29:29 [emerg] 6436#6436: "access_log" directive is not allowed here in /root/restyroot/conf/nginx.conf:4
+2018/09/27 15:29:48 [emerg] 6519#6519: "proxy_pass" directive is not allowed here in /root/restyroot/conf/nginx.conf:10
+2018/09/27 15:30:25 [emerg] 6612#6612: "proxy_pass" directive is not allowed here in /root/restyroot/conf/nginx.conf:10
+2018/09/27 15:31:54 [warn] 6705#6705: server name "http://127.0.0.1:8080" has suspicious symbols in /root/restyroot/conf/nginx.conf:10
+2018/09/27 15:31:54 [notice] 6705#6705: signal process started
+2018/09/27 15:32:13 [error] 6708#6708: *43 invalid URL prefix in "http://", client: 127.0.0.1, server: http://127.0.0.1:8080, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:36:13 [notice] 6925#6925: signal process started
+2018/09/27 15:37:59 [notice] 7106#7106: signal process started
+2018/09/27 15:39:36 [notice] 7376#7376: signal process started
+2018/09/27 15:39:38 [error] 7379#7379: *50 no resolver defined to resolve sun.datasection.com, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:42:14 [notice] 7534#7534: signal process started
+2018/09/27 15:42:21 [error] 7537#7537: *51 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:2: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/root/restyroot/./lua/test.lua:2: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 15:43:10 [notice] 7703#7703: signal process started
+2018/09/27 15:48:25 [notice] 7936#7936: signal process started
+2018/09/27 15:50:40 [notice] 8084#8084: signal process started
+2018/09/27 15:51:24 [notice] 8219#8219: signal process started
+2018/09/27 15:52:14 [notice] 8395#8395: signal process started
+2018/09/27 15:52:41 [notice] 8521#8521: signal process started
+2018/09/27 15:52:43 [error] 8524#8524: *62 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:2: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/restyroot/./lua/test.lua:2: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /wiki HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:00:36 [error] 8524#8524: *63 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:2: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/restyroot/./lua/test.lua:2: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /wiki HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:00:57 [error] 8524#8524: *64 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:2: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/restyroot/./lua/test.lua:2: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /wiki HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:01:12 [error] 8524#8524: *65 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:2: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/restyroot/./lua/test.lua:2: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:01:21 [notice] 10061#10061: signal process started
+2018/09/27 16:12:17 [notice] 11529#11529: signal process started
+2018/09/27 16:12:22 [error] 11532#11532: *72 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://192.168.0.8:8080/", host: "127.0.0.1:8080"
+2018/09/27 16:12:57 [error] 11532#11532: *74 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://192.168.0.8:8080/", host: "127.0.0.1:8080"
+2018/09/27 16:12:59 [notice] 11695#11695: signal process started
+2018/09/27 16:13:02 [alert] 11698#11698: *1090 socket() failed (24: Too many open files) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.0", upstream: "http://127.0.0.1:8080/", host: "127.0.0.1:8080"
+2018/09/27 16:13:47 [notice] 11832#11832: signal process started
+2018/09/27 16:13:49 [error] 11835#11835: *1091 no resolver defined to resolve sun.datasection.com, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:13:57 [notice] 11916#11916: signal process started
+2018/09/27 16:14:03 [error] 11919#11919: *1092 no resolver defined to resolve sun.datasection.com, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:14:07 [error] 11919#11919: *1093 no resolver defined to resolve sun.datasection.com, client: 127.0.0.1, server: , request: "GET /wiki HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:14:17 [error] 11919#11919: *1094 no resolver defined to resolve sun.datasection.com, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:16:54 [notice] 12198#12198: signal process started
+2018/09/27 16:27:51 [notice] 12519#12519: signal process started
+2018/09/27 16:28:30 [notice] 12695#12695: signal process started
+2018/09/27 16:28:31 [error] 12698#12698: *1101 no resolver defined to resolve sun.datasection.com, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:29:16 [notice] 12830#12830: signal process started
+2018/09/27 16:29:23 [error] 12833#12833: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.3:53
+2018/09/27 16:29:52 [notice] 12957#12957: signal process started
+2018/09/27 16:29:55 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:00 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:05 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:10 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:15 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:20 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:25 [error] 12960#12960: *1104 sun.datasection.com could not be resolved (110: Operation timed out), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/27 16:30:36 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:41 [error] 12960#12960: send() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:46 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:51 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:30:56 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:31:01 [error] 12960#12960: recv() failed (111: Connection refused) while resolving, resolver: 192.168.0.8:53
+2018/09/27 16:31:18 [notice] 13141#13141: signal process started
+2018/09/27 16:36:27 [notice] 13925#13925: signal process started
+2018/09/27 16:43:03 [notice] 14156#14156: signal process started
+2018/09/27 16:53:52 [notice] 18462#18462: signal process started
+2018/09/27 16:57:07 [notice] 18619#18619: signal process started
+2018/09/27 16:59:06 [notice] 19285#19285: signal process started
+2018/09/28 10:17:39 [notice] 861#861: signal process started
+2018/09/28 10:17:52 [error] 864#864: *1229 failed to load external Lua file "/root/restyroot/./conf/counter.lua": cannot open /root/restyroot/./conf/counter.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /counter HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 10:18:32 [notice] 996#996: signal process started
+2018/09/28 10:18:34 [error] 999#999: *1230 [lua] counter.lua:16: failed to connect: Client does not support authentication protocol requested by server; consider upgrading MySQL client: 1251 08004, client: 127.0.0.1, server: , request: "GET /counter HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 10:18:54 [error] 999#999: *1232 [lua] counter.lua:16: failed to connect: Client does not support authentication protocol requested by server; consider upgrading MySQL client: 1251 08004, client: 192.168.0.145, server: , request: "GET /counter HTTP/1.1", host: "192.168.0.197:8080"
+2018/09/28 10:19:15 [error] 999#999: *1232 [lua] counter.lua:16: failed to connect: Client does not support authentication protocol requested by server; consider upgrading MySQL client: 1251 08004, client: 192.168.0.145, server: , request: "GET /counter HTTP/1.1", host: "192.168.0.197:8080"
+2018/09/28 10:28:23 [error] 999#999: *1237 [lua] counter.lua:16: failed to connect: Client does not support authentication protocol requested by server; consider upgrading MySQL client: 1251 08004, client: 127.0.0.1, server: , request: "GET /counter HTTP/1.1", host: "localhost:8080"
+2018/09/28 10:40:14 [notice] 1451#1451: signal process started
+2018/09/28 11:42:26 [notice] 18711#18711: signal process started
+2018/09/28 11:42:26 [error] 18711#18711: open() "/root/restyroot/logs/nginx.pid" failed (2: No such file or directory)
+2018/09/28 15:26:31 [notice] 21172#21172: signal process started
+2018/09/28 15:26:53 [notice] 21258#21258: signal process started
+2018/09/28 15:27:08 [notice] 21351#21351: signal process started
+2018/09/28 15:28:39 [notice] 21570#21570: signal process started
+2018/09/28 15:28:46 [error] 21573#21573: *12 failed to load external Lua file "/root/restyroot/./lua/test.lua": /root/restyroot/./lua/test.lua:27: ',' expected near ';', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 15:29:29 [notice] 21703#21703: signal process started
+2018/09/28 15:29:31 [error] 21706#21706: *13 [lua] test.lua:16: failed to connect: Access denied for user 'lua'@'localhost' (using password: YES): 1045 28000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 15:29:40 [error] 21706#21706: *15 [lua] test.lua:16: failed to connect: Access denied for user 'lua'@'localhost' (using password: YES): 1045 28000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 15:31:03 [notice] 21879#21879: signal process started
+2018/09/28 15:31:04 [error] 21882#21882: *17 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:27: 'for' limit must be a number
+stack traceback:
+coroutine 0:
+	/root/restyroot/./lua/test.lua: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 15:32:43 [notice] 22022#22022: signal process started
+2018/09/28 15:32:50 [error] 22025#22025: *19 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:27: 'for' limit must be a number
+stack traceback:
+coroutine 0:
+	/root/restyroot/./lua/test.lua: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 15:33:01 [error] 22025#22025: *21 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:27: 'for' limit must be a number
+stack traceback:
+coroutine 0:
+	/root/restyroot/./lua/test.lua: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 15:35:08 [notice] 22255#22255: signal process started
+2018/09/28 15:35:32 [notice] 22423#22423: signal process started
+2018/09/28 15:35:33 [error] 22426#22426: *27 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:28: attempt to concatenate local 'value' (a table value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/./lua/test.lua: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 15:37:02 [notice] 22558#22558: signal process started
+2018/09/28 15:37:47 [notice] 22692#22692: signal process started
+2018/09/28 15:37:48 [error] 22695#22695: *31 lua entry thread aborted: runtime error: /root/restyroot/./lua/test.lua:28: attempt to concatenate field 'ip' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/./lua/test.lua: in function </root/restyroot/./lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2018/09/28 15:38:35 [notice] 22867#22867: signal process started
+2018/09/28 18:22:54 [notice] 25018#25018: signal process started
+2018/09/28 18:23:37 [notice] 25151#25151: signal process started
+2018/09/28 18:25:41 [notice] 25334#25334: signal process started
+2018/09/28 18:26:35 [notice] 25467#25467: signal process started
+2018/09/28 18:26:59 [notice] 25592#25592: signal process started
+2018/09/28 18:27:38 [alert] 25595#25595: *1049 socket() failed (24: Too many open files) while connecting to upstream, client: 192.168.0.197, server: , request: "GET /ubuntu HTTP/1.0", upstream: "http://192.168.0.197:8080/ubuntu", host: "127.0.0.1"
+2018/09/28 19:08:34 [notice] 26535#26535: signal process started
+2018/10/01 10:17:37 [notice] 2761#2761: signal process started
+2018/10/01 10:17:58 [error] 2764#2764: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/10/01 10:18:44 [alert] 2764#2764: *2069 socket() failed (24: Too many open files) while connecting to upstream, client: 192.168.0.197, server: , request: "GET /ubuntu HTTP/1.0", upstream: "http://192.168.0.197:8080/ubuntu", host: "127.0.0.1"
+2018/10/01 10:18:59 [error] 2764#2764: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/10/01 10:20:27 [error] 2764#2764: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/10/01 11:09:25 [notice] 3883#3883: signal process started
+2018/10/01 11:09:33 [error] 3886#3886: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.1:53
+2018/10/01 11:10:06 [notice] 4017#4017: signal process started
+2018/10/01 12:10:47 [emerg] 4948#4948: unknown directive "contente_by_lua_file" in /root/restyroot/conf/nginx.conf:20
+2018/10/01 12:11:21 [notice] 5040#5040: signal process started
+2018/10/01 12:11:25 [error] 5043#5043: *2077 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: unexpected symbol near '$', client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 12:14:43 [emerg] 5192#5192: invalid number of arguments in "set" directive in /root/restyroot/conf/nginx.conf:21
+2018/10/01 12:16:22 [notice] 5293#5293: signal process started
+2018/10/01 12:16:28 [error] 5296#5296: *2078 "/root/restyroot/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 12:16:39 [error] 5296#5296: *2079 open() "/root/restyroot/html/sun.datasection.com" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 12:20:47 [notice] 5492#5492: signal process started
+2018/10/01 12:20:49 [error] 5495#5495: *2080 open() "/root/restyroot/html/sun.datasection.com" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:11:43 [emerg] 6045#6045: unknown directive "^.}+.datasection.com)" in /root/restyroot/conf/nginx.conf:17
+2018/10/01 13:13:34 [notice] 6146#6146: signal process started
+2018/10/01 13:13:38 [error] 6149#6149: *2081 open() "/root/restyroot/html/sun.datasection.com" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:14:36 [notice] 6280#6280: signal process started
+2018/10/01 13:14:38 [error] 6283#6283: *2082 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: unexpected symbol near '$', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:15:40 [notice] 6413#6413: signal process started
+2018/10/01 13:15:43 [error] 6416#6416: *2083 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:16:41 [notice] 6589#6589: signal process started
+2018/10/01 13:16:44 [error] 6592#6592: *2084 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:17:08 [notice] 6722#6722: signal process started
+2018/10/01 13:17:09 [error] 6725#6725: *2085 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:19:04 [notice] 6863#6863: signal process started
+2018/10/01 13:19:05 [error] 6866#6866: *2086 [lua] test.lua:23: bad result: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in="sun.datasection.com"' at line 1: 1064: 42000., client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:19:13 [error] 6866#6866: *2088 [lua] test.lua:23: bad result: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in="sun.datasection.com"' at line 1: 1064: 42000., client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:20:17 [notice] 7082#7082: signal process started
+2018/10/01 13:20:19 [error] 7085#7085: *2090 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:21:16 [notice] 7258#7258: signal process started
+2018/10/01 13:21:18 [error] 7261#7261: *2091 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:34:00 [notice] 7489#7489: signal process started
+2018/10/01 13:34:01 [error] 7492#7492: *2092 [lua] test.lua:23: bad result: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'out FROM domain_map WHERE in="sun.datasection.com"' at line 1: 1064: 42000., client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:34:29 [notice] 7615#7615: signal process started
+2018/10/01 13:34:30 [error] 7618#7618: *2094 [lua] test.lua:23: bad result: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'out FROM domain_map WHERE in=sun.datasection.com' at line 1: 1064: 42000., client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:35:43 [notice] 7749#7749: signal process started
+2018/10/01 13:35:45 [error] 7752#7752: *2096 [lua] test.lua:23: bad result: Unknown column 'sun.datasection.com' in 'where clause': 1054: 42S22., client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:36:40 [notice] 7883#7883: signal process started
+2018/10/01 13:41:07 [notice] 8051#8051: signal process started
+2018/10/01 13:41:10 [error] 8054#8054: *2100 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:41:49 [notice] 8176#8176: signal process started
+2018/10/01 13:41:51 [error] 8179#8179: *2101 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 13:50:14 [notice] 8459#8459: signal process started
+2018/10/01 13:50:17 [error] 8462#8462: *2102 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 14:04:04 [notice] 8712#8712: signal process started
+2018/10/01 14:04:05 [error] 8715#8715: *2103 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:21: '<name>' expected near 'in', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 14:05:00 [notice] 8888#8888: signal process started
+2018/10/01 14:05:02 [error] 8891#8891: *2104 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:22: ')' expected (to close '(' at line 21) near 'if', client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 14:05:29 [notice] 9013#9013: signal process started
+2018/10/01 14:05:31 [error] 9016#9016: *2105 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to concatenate field 'out' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /sun.datasection.com HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 14:06:27 [notice] 9147#9147: signal process started
+2018/10/01 14:27:45 [notice] 9486#9486: signal process started
+2018/10/01 14:30:28 [error] 9489#9489: *2113 "/root/restyroot/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2018/10/01 14:41:03 [error] 9489#9489: *2117 "/root/restyroot/html/index.html" is not found (2: No such file or directory), client: 192.168.0.197, server: , request: "GET / HTTP/1.1", host: "192.168.0.197:8080"
+2018/10/01 14:48:05 [notice] 10766#10766: signal process started
+2018/10/01 14:49:04 [notice] 11065#11065: signal process started
+2018/10/01 14:49:04 [error] 11065#11065: open() "/root/restyroot/logs/nginx.pid" failed (2: No such file or directory)
+2018/10/01 14:49:34 [notice] 11149#11149: signal process started
+2018/10/01 14:49:34 [error] 11149#11149: open() "/root/restyroot/logs/nginx.pid" failed (2: No such file or directory)
+2018/10/01 14:51:52 [notice] 11583#11583: signal process started
+2018/10/01 15:13:26 [error] 11974#11974: *14 "/root/restyroot/html/index.html" is not found (2: No such file or directory), client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "192.168.0.197:8080"
+2018/10/01 15:15:58 [error] 11974#11974: *22 "/root/restyroot/html/index.html" is not found (2: No such file or directory), client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com:8080"
+2018/10/01 15:16:40 [error] 11974#11974: *23 "/root/restyroot/html/index.html" is not found (2: No such file or directory), client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com:8080"
+2018/10/01 15:18:07 [notice] 13281#13281: signal process started
+2018/10/01 15:19:57 [error] 13284#13284: *34 "/root/restyroot/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/10/01 15:22:00 [error] 13284#13284: *36 open() "/root/restyroot/html/favicon.ico" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.197", referrer: "http://192.168.0.197/"
+2018/10/01 16:00:40 [error] 13284#13284: *41 "/root/restyroot/html/dswiki/index.html" is not found (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /dswiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/apple-touch-icon.png" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /apple-touch-icon.png HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/favicon.ico" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /favicon.ico HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/apple-touch-icon.png" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /apple-touch-icon.png HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/favicon.ico" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /favicon.ico HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *41 "/root/restyroot/html/dswiki/index.html" is not found (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /dswiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/apple-touch-icon.png" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /apple-touch-icon.png HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/favicon.ico" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /favicon.ico HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/apple-touch-icon.png" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /apple-touch-icon.png HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:00:40 [error] 13284#13284: *42 open() "/root/restyroot/html/favicon.ico" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /favicon.ico HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:23:44 [error] 13284#13284: *47 open() "/root/restyroot/html/wiki" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 16:28:19 [notice] 14522#14522: signal process started
+2018/10/01 16:37:06 [notice] 14723#14723: signal process started
+2018/10/01 16:37:11 [error] 14726#14726: *53 failed to load inlined Lua code: content_by_lua(nginx.conf:24):1: unexpected symbol near '$', client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/10/01 16:38:07 [notice] 14897#14897: signal process started
+2018/10/01 16:38:09 [error] 14900#14900: *54 failed to load inlined Lua code: content_by_lua(nginx.conf:24):2: ')' expected (to close '(' at line 1) near 'end', client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/10/01 16:38:27 [notice] 15022#15022: signal process started
+2018/10/01 16:38:28 [error] 15025#15025: *55 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:24):1: attempt to index field 'varngx' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:24): in function <content_by_lua(nginx.conf:24):1>, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2018/10/01 16:38:51 [notice] 15147#15147: signal process started
+2018/10/01 16:44:54 [notice] 15364#15364: signal process started
+2018/10/01 16:49:54 [notice] 15491#15491: signal process started
+2018/10/01 16:55:01 [emerg] 15625#15625: unexpected "}" in /root/restyroot/conf/nginx.conf:25
+2018/10/01 16:55:19 [emerg] 15708#15708: invalid number of arguments in "rewrite" directive in /root/restyroot/conf/nginx.conf:23
+2018/10/01 16:59:56 [notice] 15824#15824: signal process started
+2018/10/01 17:00:04 [error] 15827#15827: *71 "/root/restyroot/htmlmars.datasection.com/index.html" is not found (2: No such file or directory), client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "mars.datasection.com"
+2018/10/01 17:00:09 [error] 15827#15827: *72 open() "/root/restyroot/htmlmars.datasection.com/wiki" failed (2: No such file or directory), client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "mars.datasection.com"
+2018/10/01 17:01:58 [notice] 15939#15939: signal process started
+2018/10/01 17:08:36 [notice] 16095#16095: signal process started
+2018/10/01 17:08:41 [error] 16098#16098: *136 failed to load inlined Lua code: content_by_lua(nginx.conf:23):1: ')' expected near '.1', client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com"
+2018/10/01 17:11:40 [notice] 16204#16204: signal process started
+2018/10/02 09:57:32 [error] 16207#16207: *234 [lua] test.lua:23: bad result: Table 'lua.host_map' doesn't exist: 1146: 42S02., client: 192.168.0.145, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 09:57:32 [error] 16207#16207: *234 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 09:59:26 [error] 16207#16207: *237 [lua] test.lua:23: bad result: Table 'lua.host_map' doesn't exist: 1146: 42S02., client: 192.168.0.145, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 09:59:26 [error] 16207#16207: *237 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 09:59:27 [error] 16207#16207: *238 [lua] test.lua:23: bad result: Table 'lua.host_map' doesn't exist: 1146: 42S02., client: 192.168.0.145, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 09:59:27 [error] 16207#16207: *238 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 09:59:43 [notice] 25921#25921: signal process started
+2018/10/02 10:28:10 [notice] 26373#26373: signal process started
+2018/10/02 10:29:13 [notice] 26468#26468: signal process started
+2018/10/02 10:38:25 [notice] 26720#26720: signal process started
+2018/10/02 10:38:45 [notice] 26806#26806: signal process started
+2018/10/02 10:38:49 [error] 26807#26807: *258 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/aaa HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 10:40:52 [error] 26807#26807: *260 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:31: variable "document_uri" not changeable
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/test.lua:31: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 10:42:35 [emerg] 27096#27096: invalid variable name "&path" in /root/restyroot/conf/nginx.conf:21
+2018/10/02 10:42:58 [notice] 27181#27181: signal process started
+2018/10/02 10:44:47 [notice] 27325#27325: signal process started
+2018/10/02 10:44:51 [error] 27328#27328: *262 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 10:47:51 [error] 27328#27328: *266 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 10:55:03 [error] 27328#27328: *268 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 10:56:32 [notice] 27552#27552: signal process started
+2018/10/02 10:56:36 [error] 27555#27555: *271 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 10:57:26 [notice] 27647#27647: signal process started
+2018/10/02 10:57:31 [error] 27650#27650: *275 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: bad argument #2 to 'log' (expected table to have __tostring metamethod)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/root/restyroot/lua/test.lua:28: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 10:58:29 [notice] 27781#27781: signal process started
+2018/10/02 10:58:35 [error] 27784#27784: *277 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:04:02 [notice] 27924#27924: signal process started
+2018/10/02 11:04:05 [error] 27927#27927: *281 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:06:00 [notice] 28069#28069: signal process started
+2018/10/02 11:06:03 [error] 28072#28072: *285 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:07:03 [notice] 28163#28163: signal process started
+2018/10/02 11:07:05 [error] 28166#28166: *289 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:08:24 [notice] 28306#28306: signal process started
+2018/10/02 11:09:42 [notice] 28402#28402: signal process started
+2018/10/02 11:09:44 [error] 28405#28405: *295 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:29: attempt to concatenate a table value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:10:49 [notice] 28496#28496: signal process started
+2018/10/02 11:11:10 [notice] 28583#28583: signal process started
+2018/10/02 11:11:41 [notice] 28677#28677: signal process started
+2018/10/02 11:12:29 [notice] 28853#28853: signal process started
+2018/10/02 11:13:51 [notice] 28988#28988: signal process started
+2018/10/02 11:15:15 [notice] 29134#29134: signal process started
+2018/10/02 11:15:18 [error] 29137#29137: *307 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:15:40 [notice] 29220#29220: signal process started
+2018/10/02 11:15:42 [error] 29223#29223: *311 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:18:56 [notice] 29374#29374: signal process started
+2018/10/02 11:18:59 [error] 29377#29377: *315 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:21:02 [notice] 29474#29474: signal process started
+2018/10/02 11:21:05 [error] 29477#29477: *319 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:25:39 [notice] 29602#29602: signal process started
+2018/10/02 11:26:09 [notice] 29692#29692: signal process started
+2018/10/02 11:26:11 [error] 29695#29695: *325 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:27:07 [notice] 29787#29787: signal process started
+2018/10/02 11:27:46 [notice] 29881#29881: signal process started
+2018/10/02 11:27:48 [error] 29884#29884: *329 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/root/restyroot/lua/test.lua:28: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:28:34 [notice] 29975#29975: signal process started
+2018/10/02 11:28:35 [error] 29978#29978: *331 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:32:52 [notice] 30094#30094: signal process started
+2018/10/02 11:36:00 [notice] 30287#30287: signal process started
+2018/10/02 11:36:03 [error] 30290#30290: *339 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to concatenate field 'upstream' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:36:48 [notice] 30383#30383: signal process started
+2018/10/02 11:37:09 [notice] 30468#30468: signal process started
+2018/10/02 11:37:11 [error] 30471#30471: *345 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:38:09 [notice] 30565#30565: signal process started
+2018/10/02 11:38:11 [error] 30568#30568: *349 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:38:40 [notice] 30659#30659: signal process started
+2018/10/02 11:38:41 [error] 30662#30662: *351 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:39:33 [error] 30662#30662: *355 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:39:50 [notice] 30797#30797: signal process started
+2018/10/02 11:39:53 [error] 30800#30800: *358 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:31: variable "path" not found for writing; maybe it is a built-in variable that is not changeable or you forgot to use "set $path '';" in the config file to define it first
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/test.lua:31: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:40:34 [notice] 30975#30975: signal process started
+2018/10/02 11:40:36 [error] 30978#30978: *360 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:41:29 [notice] 31069#31069: signal process started
+2018/10/02 11:41:30 [error] 31072#31072: *364 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:42:23 [error] 31072#31072: *368 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 11:43:27 [notice] 31173#31173: signal process started
+2018/10/02 11:44:02 [notice] 31259#31259: signal process started
+2018/10/02 11:44:04 [error] 31262#31262: *375 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 11:44:07 [error] 31262#31262: *377 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 11:44:42 [notice] 31354#31354: signal process started
+2018/10/02 11:44:44 [error] 31357#31357: *379 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 11:45:07 [notice] 31441#31441: signal process started
+2018/10/02 11:45:10 [error] 31443#31443: *381 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:28: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 11:46:07 [notice] 31535#31535: signal process started
+2018/10/02 11:46:08 [error] 31538#31538: *383 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 11:46:35 [notice] 31587#31587: signal process started
+2018/10/02 11:47:32 [notice] 31680#31680: signal process started
+2018/10/02 11:47:34 [error] 31683#31683: *385 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 11:48:05 [error] 31683#31683: *387 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.197, server: , request: "GET / HTTP/1.1", host: "192.168.0.197"
+2018/10/02 11:49:04 [notice] 31817#31817: signal process started
+2018/10/02 11:50:11 [notice] 31869#31869: signal process started
+2018/10/02 11:50:46 [error] 31872#31872: *395 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.197, server: , request: "GET / HTTP/1.1", host: "192.168.0.197"
+2018/10/02 11:51:22 [notice] 32013#32013: signal process started
+2018/10/02 11:51:37 [notice] 32099#32099: signal process started
+2018/10/02 11:52:49 [notice] 32193#32193: signal process started
+2018/10/02 11:52:52 [error] 32196#32196: *405 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:29: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:53:28 [notice] 32287#32287: signal process started
+2018/10/02 11:54:41 [notice] 32382#32382: signal process started
+2018/10/02 11:56:21 [notice] 32485#32485: signal process started
+2018/10/02 11:56:27 [error] 32488#32488: *413 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:29: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 11:59:21 [notice] 32596#32596: signal process started
+2018/10/02 11:59:22 [error] 32599#32599: *417 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:04:32 [notice] 315#315: signal process started
+2018/10/02 12:04:34 [error] 318#318: *421 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:10:10 [error] 318#318: *425 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:15:47 [notice] 511#511: signal process started
+2018/10/02 12:15:49 [error] 514#514: *428 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:16:44 [notice] 624#624: signal process started
+2018/10/02 12:16:46 [error] 627#627: *432 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:17:29 [notice] 747#747: signal process started
+2018/10/02 12:17:31 [error] 750#750: *436 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:18:22 [notice] 841#841: signal process started
+2018/10/02 12:19:08 [notice] 929#929: signal process started
+2018/10/02 12:20:05 [notice] 1111#1111: signal process started
+2018/10/02 12:20:06 [error] 1115#1115: *444 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:22:11 [notice] 1322#1322: signal process started
+2018/10/02 12:22:13 [error] 1325#1325: *448 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:22:49 [notice] 1416#1416: signal process started
+2018/10/02 12:22:51 [error] 1419#1419: *452 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:23:27 [notice] 1513#1513: signal process started
+2018/10/02 12:24:17 [notice] 1607#1607: signal process started
+2018/10/02 12:24:20 [error] 1610#1610: *462 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:24:49 [notice] 1691#1691: signal process started
+2018/10/02 12:27:07 [notice] 1796#1796: signal process started
+2018/10/02 12:27:08 [error] 1799#1799: *466 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:28:09 [notice] 1890#1890: signal process started
+2018/10/02 12:31:27 [notice] 2050#2050: signal process started
+2018/10/02 12:31:31 [error] 2053#2053: *472 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:32:24 [notice] 2146#2146: signal process started
+2018/10/02 12:32:26 [error] 2149#2149: *476 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:37:07 [notice] 2306#2306: signal process started
+2018/10/02 12:37:49 [notice] 2401#2401: signal process started
+2018/10/02 12:37:52 [error] 2404#2404: *482 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:37:55 [error] 2404#2404: *486 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:38:23 [error] 2404#2404: *489 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:38:23 [error] 2404#2404: *492 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /icons/apache_pb.gif HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/"
+2018/10/02 12:38:23 [error] 2404#2404: *491 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /icons/poweredby.png HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/"
+2018/10/02 12:38:48 [error] 2404#2404: *495 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:38:49 [error] 2404#2404: *499 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/images/thumb/3/38/Logo_large.gif/600px-Logo_large.gif HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+2018/10/02 12:38:49 [error] 2404#2404: *503 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/load.php?debug=false&lang=ja&modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.monobook&only=styles&skin=monobook&* HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+2018/10/02 12:38:49 [error] 2404#2404: *504 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/skins/common/images/poweredby_mediawiki_88x31.png HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+2018/10/02 12:38:49 [error] 2404#2404: *501 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/load.php?debug=false&lang=ja&modules=startup&only=scripts&skin=monobook&* HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+2018/10/02 12:38:49 [error] 2404#2404: *502 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/skins/common/images/public-domain.png HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+2018/10/02 12:38:49 [error] 2404#2404: *497 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:38:49 [error] 2404#2404: *510 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:40:23 [notice] 2565#2565: signal process started
+2018/10/02 12:40:35 [error] 2568#2568: *516 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:40:38 [error] 2568#2568: *517 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:40:42 [error] 2568#2568: *519 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /icons/poweredby.png HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/wiki"
+2018/10/02 12:40:42 [error] 2568#2568: *522 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /icons/apache_pb.gif HTTP/1.1", host: "sun.datasection.com", referrer: "http://sun.datasection.com/wiki"
+2018/10/02 12:42:06 [notice] 2663#2663: signal process started
+2018/10/02 12:42:10 [error] 2666#2666: *524 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:42:20 [error] 2666#2666: *527 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:42:36 [notice] 2758#2758: signal process started
+2018/10/02 12:42:56 [notice] 2805#2805: signal process started
+2018/10/02 12:44:14 [notice] 2898#2898: signal process started
+2018/10/02 12:47:37 [notice] 3058#3058: signal process started
+2018/10/02 12:47:39 [error] 3061#3061: *558 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:48:09 [notice] 3144#3144: signal process started
+2018/10/02 12:48:10 [error] 3147#3147: *562 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 12:48:35 [notice] 3238#3238: signal process started
+2018/10/02 12:49:10 [notice] 3324#3324: signal process started
+2018/10/02 12:49:52 [notice] 3418#3418: signal process started
+2018/10/02 12:52:08 [emerg] 3563#3563: unknown directive "document_uri" in /root/restyroot/conf/nginx.conf:24
+2018/10/02 12:52:31 [emerg] 3655#3655: unknown directive "$document_uri" in /root/restyroot/conf/nginx.conf:24
+2018/10/02 13:08:48 [notice] 3968#3968: signal process started
+2018/10/02 13:09:28 [notice] 4064#4064: signal process started
+2018/10/02 13:09:49 [notice] 4150#4150: signal process started
+2018/10/02 13:09:51 [error] 4153#4153: *687 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 14:24:51 [notice] 4855#4855: signal process started
+2018/10/02 14:25:51 [notice] 4952#4952: signal process started
+2018/10/02 14:25:55 [error] 4955#4955: *711 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: bad argument #1 to '__newindex' (string, number, or nil expected, but got table)
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/test.lua:30: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 14:26:51 [notice] 5046#5046: signal process started
+2018/10/02 14:27:52 [notice] 5193#5193: signal process started
+2018/10/02 14:31:54 [notice] 5312#5312: signal process started
+2018/10/02 14:31:56 [error] 5315#5315: *730 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 14:33:30 [notice] 5416#5416: signal process started
+2018/10/02 14:33:32 [error] 5419#5419: *734 [lua] test.lua:26: bad result: Unknown column 'domain.phot' in 'field list': 1054: 42S22., client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 14:33:32 [error] 5419#5419: *734 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 14:34:17 [notice] 5550#5550: signal process started
+2018/10/02 14:34:19 [error] 5553#5553: *736 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:32: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 14:34:25 [error] 5553#5553: *740 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:32: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 14:47:52 [notice] 5871#5871: signal process started
+2018/10/02 14:47:54 [error] 5874#5874: *743 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:32:46 [notice] 8758#8758: signal process started
+2018/10/02 16:32:50 [error] 8759#8759: *745 [lua] test.lua:24: bad result: nil: nil: nil., client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:32:50 [error] 8759#8759: *745 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:36:12 [notice] 8868#8868: signal process started
+2018/10/02 16:36:14 [error] 8871#8871: *747 [lua] test.lua:24: bad result: nil: nil: nil., client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:36:14 [error] 8871#8871: *747 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:37:47 [notice] 9013#9013: signal process started
+2018/10/02 16:37:49 [error] 9016#9016: *749 [lua] test.lua:24: bad result: nil: nil: nil., client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:37:49 [error] 9016#9016: *749 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:40:10 [notice] 9115#9115: signal process started
+2018/10/02 16:40:26 [notice] 9209#9209: signal process started
+2018/10/02 16:44:51 [notice] 9370#9370: signal process started
+2018/10/02 16:44:55 [error] 9373#9373: *759 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:34: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:46:17 [notice] 9465#9465: signal process started
+2018/10/02 16:46:19 [error] 9468#9468: *763 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:34: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:49:05 [notice] 9620#9620: signal process started
+2018/10/02 16:49:09 [error] 9623#9623: *767 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:34: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 16:53:07 [notice] 9739#9739: signal process started
+2018/10/02 16:53:59 [notice] 9834#9834: signal process started
+2018/10/02 16:54:00 [error] 9837#9837: *775 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:38: bad argument #1 to '__newindex' (string, number, or nil expected, but got userdata)
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/test.lua:38: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 16:55:14 [notice] 9928#9928: signal process started
+2018/10/02 16:55:15 [error] 9931#9931: *777 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:38: bad argument #1 to '__newindex' (string, number, or nil expected, but got userdata)
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/test.lua:38: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 17:00:57 [notice] 10064#10064: signal process started
+2018/10/02 17:00:59 [error] 10067#10067: *779 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:38: bad argument #1 to '__newindex' (string, number, or nil expected, but got userdata)
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/test.lua:38: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 17:04:02 [notice] 10187#10187: signal process started
+2018/10/02 17:04:04 [error] 10190#10190: *781 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:34: bad argument #1 to '__newindex' (string, number, or nil expected, but got userdata)
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/test.lua:34: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 17:07:13 [error] 10190#10190: *783 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:34: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlaba HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 17:07:30 [error] 10190#10190: *785 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:34: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /gitlaba HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 17:11:21 [notice] 10341#10341: signal process started
+2018/10/02 17:11:23 [error] 10344#10344: *787 [lua] test.lua:22: bad result: nil: nil: nil., client: 192.168.0.145, server: , request: "GET /gitlaba HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 17:11:23 [error] 10344#10344: *787 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /gitlaba HTTP/1.1", host: "mars.datasection.com"
+2018/10/02 17:11:40 [error] 10344#10344: *789 [lua] test.lua:22: bad result: nil: nil: nil., client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:11:40 [error] 10344#10344: *789 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:12:52 [notice] 10438#10438: signal process started
+2018/10/02 17:12:53 [error] 10441#10441: *791 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:25: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:32:58 [notice] 10728#10728: signal process started
+2018/10/02 17:33:01 [error] 10731#10731: *795 [lua] test.lua:25: sun.datasection.com, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:33:01 [error] 10731#10731: *795 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:25: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:35:35 [notice] 10839#10839: signal process started
+2018/10/02 17:35:37 [error] 10842#10842: *799 [lua] test.lua:25: sun.datasection.com, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:35:37 [error] 10842#10842: *799 invalid URL prefix in "http://", client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:36:57 [notice] 10935#10935: signal process started
+2018/10/02 17:37:16 [notice] 11021#11021: signal process started
+2018/10/02 17:37:18 [error] 11024#11024: *807 [lua] test.lua:25: sun.datasection.com, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:37:18 [error] 11024#11024: *807 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:25: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:40:30 [notice] 11139#11139: signal process started
+2018/10/02 17:40:32 [error] 11142#11142: *811 [lua] test.lua:25: sun.datasection.com, client: 192.168.0.145, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/02 17:40:32 [error] 11142#11142: *811 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:25: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.145, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/03 09:14:06 [notice] 19733#19733: signal process started
+2018/10/03 09:19:20 [notice] 20026#20026: signal process started
+2018/10/04 10:56:47 [notice] 1765#1765: signal process started
+2018/10/04 10:56:48 [notice] 1808#1808: signal process started
+2018/10/04 11:03:31 [notice] 2003#2003: signal process started
+2018/10/04 11:03:55 [error] 2006#2006: *815 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET / HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:04:01 [error] 2006#2006: *817 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:09:47 [notice] 2353#2353: signal process started
+2018/10/04 11:09:54 [error] 2356#2356: *819 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'ipairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'ipairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:12:01 [notice] 2462#2462: signal process started
+2018/10/04 11:12:03 [error] 2465#2465: *821 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to concatenate local 'v' (a table value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:13:11 [notice] 2555#2555: signal process started
+2018/10/04 11:13:16 [error] 2558#2558: *823 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:13:46 [notice] 2640#2640: signal process started
+2018/10/04 11:13:49 [error] 2643#2643: *825 [lua] test.lua:27: 1, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:13:49 [error] 2643#2643: *825 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:14:31 [notice] 2734#2734: signal process started
+2018/10/04 11:14:34 [error] 2737#2737: *827 [lua] test.lua:27: 1, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:15:23 [notice] 2828#2828: signal process started
+2018/10/04 11:16:30 [notice] 2962#2962: signal process started
+2018/10/04 11:16:32 [error] 2965#2965: *831 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:17:29 [notice] 3057#3057: signal process started
+2018/10/04 11:17:32 [error] 3060#3060: *833 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:29:36 [notice] 3240#3240: signal process started
+2018/10/04 11:29:39 [error] 3243#3243: *835 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:30:17 [notice] 3333#3333: signal process started
+2018/10/04 11:30:19 [error] 3336#3336: *837 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to concatenate local 'v' (a table value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:30:54 [notice] 3426#3426: signal process started
+2018/10/04 11:31:00 [error] 3428#3428: *839 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:34:55 [notice] 3672#3672: signal process started
+2018/10/04 11:35:29 [notice] 3757#3757: signal process started
+2018/10/04 11:39:22 [notice] 3959#3959: signal process started
+2018/10/04 11:39:26 [error] 3962#3962: *845 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:41:18 [notice] 4061#4061: signal process started
+2018/10/04 11:42:55 [notice] 4246#4246: signal process started
+2018/10/04 11:43:46 [notice] 4331#4331: signal process started
+2018/10/04 11:43:52 [error] 4334#4334: *853 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:45:03 [notice] 4474#4474: signal process started
+2018/10/04 11:45:06 [error] 4477#4477: *857 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:47:29 [notice] 4575#4575: signal process started
+2018/10/04 11:48:19 [notice] 4668#4668: signal process started
+2018/10/04 11:49:13 [notice] 4761#4761: signal process started
+2018/10/04 11:49:20 [error] 4764#4764: *863 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:49:54 [notice] 4854#4854: signal process started
+2018/10/04 11:49:56 [error] 4857#4857: *867 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:50:33 [notice] 4940#4940: signal process started
+2018/10/04 11:50:35 [error] 4943#4943: *871 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 11:50:41 [error] 4943#4943: *875 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:04:59 [notice] 5162#5162: signal process started
+2018/10/04 12:07:33 [notice] 5264#5264: signal process started
+2018/10/04 12:09:02 [notice] 5365#5365: signal process started
+2018/10/04 12:09:05 [error] 5368#5368: *886 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:10:00 [notice] 5458#5458: signal process started
+2018/10/04 12:10:03 [error] 5461#5461: *890 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:10:28 [notice] 5543#5543: signal process started
+2018/10/04 12:10:30 [error] 5546#5546: *892 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:11:25 [notice] 5636#5636: signal process started
+2018/10/04 12:11:28 [error] 5639#5639: *894 [lua] test.lua:35: tmp: nil, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:11:28 [error] 5639#5639: *894 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:12:50 [notice] 5730#5730: signal process started
+2018/10/04 12:12:54 [error] 5733#5733: *896 [lua] test.lua:36: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:12:54 [error] 5733#5733: *896 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:13:38 [notice] 5823#5823: signal process started
+2018/10/04 12:13:40 [error] 5826#5826: *900 [lua] test.lua:36: tmp: nil, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:13:40 [error] 5826#5826: *900 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:14:23 [notice] 5916#5916: signal process started
+2018/10/04 12:14:24 [error] 5919#5919: *902 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:29: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:15:31 [notice] 6009#6009: signal process started
+2018/10/04 12:15:32 [error] 6012#6012: *904 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:15:32 [error] 6012#6012: *904 [lua] test.lua:36: tmp: , client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:15:32 [error] 6012#6012: *904 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:19:20 [notice] 6127#6127: signal process started
+2018/10/04 12:19:23 [error] 6130#6130: *906 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:19:23 [error] 6130#6130: *906 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to call field 'push' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:19:28 [error] 6130#6130: *908 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:19:28 [error] 6130#6130: *908 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to call field 'push' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:20:56 [notice] 6229#6229: signal process started
+2018/10/04 12:20:58 [error] 6232#6232: *910 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:20:58 [error] 6232#6232: *910 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:37: bad argument #2 to 'log' (expected table to have __tostring metamethod)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/root/restyroot/lua/test.lua:37: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:21:38 [notice] 6355#6355: signal process started
+2018/10/04 12:21:42 [error] 6358#6358: *912 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:21:42 [error] 6358#6358: *912 [lua] test.lua:37: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:21:42 [error] 6358#6358: *912 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:38: bad argument #1 to '__newindex' (string, number, or nil expected, but got table)
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/test.lua:38: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:22:22 [notice] 6449#6449: signal process started
+2018/10/04 12:22:26 [error] 6452#6452: *914 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:22:26 [error] 6452#6452: *914 [lua] test.lua:37: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:22:26 [error] 6452#6452: *914 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:22:56 [error] 6452#6452: *918 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:22:56 [error] 6452#6452: *918 [lua] test.lua:37: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:22:56 [error] 6452#6452: *918 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:23:27 [notice] 6543#6543: signal process started
+2018/10/04 12:23:29 [error] 6546#6546: *921 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:23:29 [error] 6546#6546: *921 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: bad argument #1 to 'insert' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'insert'
+	/root/restyroot/lua/test.lua:30: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:25:41 [notice] 6728#6728: signal process started
+2018/10/04 12:25:49 [error] 6731#6731: *923 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:25:49 [error] 6731#6731: *923 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:26:46 [notice] 6822#6822: signal process started
+2018/10/04 12:26:49 [error] 6823#6823: *927 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:26:49 [error] 6823#6823: *927 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:27:43 [notice] 6915#6915: signal process started
+2018/10/04 12:27:54 [error] 6918#6918: *931 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:27:54 [error] 6918#6918: *931 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:27:54 [error] 6918#6918: *931 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:28:51 [notice] 7017#7017: signal process started
+2018/10/04 12:28:55 [error] 7020#7020: *933 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:28:55 [error] 7020#7020: *933 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:28:55 [error] 7020#7020: *933 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:29:36 [notice] 7103#7103: signal process started
+2018/10/04 12:29:39 [error] 7106#7106: *935 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:29:39 [error] 7106#7106: *935 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:29:39 [error] 7106#7106: *935 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:31:21 [emerg] 7289#7289: unknown directive "$upstream" in /root/restyroot/conf/nginx.conf:22
+2018/10/04 12:34:17 [emerg] 7398#7398: "log_format" directive is not allowed here in /root/restyroot/conf/nginx.conf:22
+2018/10/04 12:34:20 [error] 7106#7106: *939 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:34:20 [error] 7106#7106: *939 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:34:20 [error] 7106#7106: *939 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:36:26 [emerg] 7500#7500: unknown log format "debug" in /root/restyroot/conf/nginx.conf:18
+2018/10/04 12:37:12 [emerg] 7633#7633: unknown log format "debug" in /root/restyroot/conf/nginx.conf:18
+2018/10/04 12:38:05 [emerg] 7767#7767: unknown log format "debug" in /root/restyroot/conf/nginx.conf:8
+2018/10/04 12:40:38 [emerg] 7886#7886: "set" directive is not allowed here in /root/restyroot/conf/nginx.conf:14
+2018/10/04 12:46:00 [notice] 8018#8018: signal process started
+2018/10/04 12:46:09 [error] 8021#8021: *942 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:46:09 [error] 8021#8021: *942 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:46:09 [error] 8021#8021: *942 invalid URL prefix in "http://", client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:47:50 [notice] 8155#8155: signal process started
+2018/10/04 12:47:52 [error] 8158#8158: *944 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:47:52 [error] 8158#8158: *944 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:47:52 [error] 8158#8158: *944 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:49:17 [notice] 8257#8257: signal process started
+2018/10/04 12:49:19 [error] 8260#8260: *948 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:49:19 [error] 8260#8260: *948 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:49:19 [error] 8260#8260: *948 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:49:47 [notice] 8344#8344: signal process started
+2018/10/04 12:49:50 [error] 8347#8347: *952 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:49:50 [error] 8347#8347: *952 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:49:50 [error] 8347#8347: *952 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:50:14 [emerg] 8438#8438: unknown "proxy_pass" variable
+2018/10/04 12:50:51 [notice] 8522#8522: signal process started
+2018/10/04 12:50:54 [error] 8525#8525: *956 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:50:54 [error] 8525#8525: *956 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:12:50:54 +0900] , sun.datasection.com
+2018/10/04 12:50:54 [error] 8525#8525: *956 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:12:50:54 +0900] , 
+2018/10/04 12:51:37 [notice] 8657#8657: signal process started
+2018/10/04 12:51:39 [error] 8660#8660: *960 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:51:39 [error] 8660#8660: *960 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:12:51:39 +0900] , sun.datasection.com
+2018/10/04 12:51:39 [error] 8660#8660: *960 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:12:51:39 +0900] , 
+2018/10/04 12:52:28 [notice] 8752#8752: signal process started
+2018/10/04 12:52:30 [error] 8755#8755: *964 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:52:30 [error] 8755#8755: *964 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:12:52:30 +0900] upstream: , path: sun.datasection.com
+2018/10/04 12:52:30 [error] 8755#8755: *964 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:27: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:12:52:30 +0900] upstream: , path: 
+2018/10/04 12:53:49 [emerg] 8846#8846: host not found in upstream "sun.datasectionn.com" in /root/restyroot/conf/nginx.conf:28
+2018/10/04 12:54:35 [notice] 8938#8938: signal process started
+2018/10/04 12:54:38 [error] 8941#8941: *968 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:54:38 [error] 8941#8941: *968 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:54:38 [error] 8941#8941: *968 sun.datasectionn.com could not be resolved (3: Host not found), client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:12:54:38 +0900] upstream: sun.datasectionn.com, path: sun.datasection.com
+2018/10/04 12:55:08 [error] 8941#8941: *971 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:55:08 [error] 8941#8941: *971 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 12:55:08 [error] 8941#8941: *971 sun.datasectionn.com could not be resolved (3: Host not found), client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:12:55:08 +0900] upstream: sun.datasectionn.com, path: sun.datasection.com
+2018/10/04 13:03:14 [notice] 9113#9113: signal process started
+2018/10/04 13:03:21 [error] 9116#9116: *973 [lua] test.lua:29: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:03:21 [error] 9116#9116: *973 [lua] test.lua:38: tmp: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:03:21 +0900] upstream: sun.datasectionn.com, path: sun.datasection.com
+2018/10/04 13:06:02 [notice] 9265#9265: signal process started
+2018/10/04 13:06:05 [error] 9268#9268: *976 [lua] test.lua:31: key: destvalue: /wiki., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:06:05 [error] 9268#9268: *976 [lua] test.lua:28: key: phostvalue: sun.datasection.com., client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:06:05 [error] 9268#9268: *976 [lua] test.lua:36: tmp1: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:06:05 [error] 9268#9268: *976 [lua] test.lua:37: tmp2: /wiki, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:06:05 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 13:06:05 [error] 9268#9268: *976 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:06:05 +0900] upstream: , path: 
+2018/10/04 13:09:21 [notice] 9375#9375: signal process started
+[DEBUG][04/Oct/2018:13:09:24 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:09:24 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:09:24 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:09:36 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:09:36 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:09:36 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:09:56 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:09:56 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:09:56 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:13:20 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:13:20 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:13:26 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:13:26 +0900] upstream: sun.datasection.com, path: 
+[DEBUG][04/Oct/2018:13:14:43 +0900] upstream: sun.datasection.com, path: 
+2018/10/04 13:15:11 [notice] 9556#9556: signal process started
+2018/10/04 13:15:34 [notice] 9641#9641: signal process started
+2018/10/04 13:15:38 [error] 9644#9644: *1004 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8 HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:15:38 +0900] upstream: , path: 
+2018/10/04 13:16:43 [error] 9644#9644: *1006 [lua] test.lua:33: tmp1: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki/index.php HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:16:43 [error] 9644#9644: *1006 [lua] test.lua:34: tmp2: /wiki/index.php, client: 192.168.0.22, server: , request: "GET /wiki/index.php HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:16:43 +0900] upstream: sun.datasection.com, path: /wiki/index.php
+2018/10/04 13:16:43 [error] 9644#9644: *1006 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8 HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:16:43 +0900] upstream: , path: 
+2018/10/04 13:16:58 [error] 9644#9644: *1010 [lua] test.lua:33: tmp1: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki/index.php HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:16:58 [error] 9644#9644: *1010 [lua] test.lua:34: tmp2: /wiki/index.php, client: 192.168.0.22, server: , request: "GET /wiki/index.php HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:16:58 +0900] upstream: sun.datasection.com, path: /wiki/index.php
+2018/10/04 13:16:58 [error] 9644#9644: *1010 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8 HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:16:58 +0900] upstream: , path: 
+2018/10/04 13:17:06 [error] 9644#9644: *1013 [lua] test.lua:33: tmp1: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki/index.php HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:17:06 [error] 9644#9644: *1013 [lua] test.lua:34: tmp2: /wiki/index.php, client: 192.168.0.22, server: , request: "GET /wiki/index.php HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:17:06 +0900] upstream: sun.datasection.com, path: /wiki/index.php
+2018/10/04 13:17:06 [error] 9644#9644: *1013 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8 HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:17:06 +0900] upstream: , path: 
+2018/10/04 13:17:36 [error] 9644#9644: *1016 [lua] test.lua:33: tmp1: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:17:36 [error] 9644#9644: *1016 [lua] test.lua:34: tmp2: /wiki, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:17:36 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 13:17:36 [error] 9644#9644: *1016 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/restyroot/lua/test.lua:26: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:17:36 +0900] upstream: , path: 
+2018/10/04 13:18:10 [error] 9644#9644: *1019 [lua] test.lua:33: tmp1: sun.datasection.com, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 13:18:10 [error] 9644#9644: *1019 [lua] test.lua:34: tmp2: /wiki, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:13:18:10 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:07:15 [notice] 11208#11208: signal process started
+[DEBUG][04/Oct/2018:16:07:49 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:07:58 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:08:05 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:08:05 [error] 11211#11211: *1028 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:27: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:08:05 +0900] upstream: , path: 
+2018/10/04 16:09:15 [notice] 11353#11353: signal process started
+2018/10/04 16:09:20 [error] 11356#11356: *1030 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:26: 'then' expected near '!', client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:09:20 +0900] upstream: , path: 
+2018/10/04 16:09:50 [error] 11356#11356: *1031 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:26: 'then' expected near '!', client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:09:50 +0900] upstream: , path: 
+2018/10/04 16:12:42 [notice] 11461#11461: signal process started
+[DEBUG][04/Oct/2018:16:12:46 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:12:46 [error] 11464#11464: *1032 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:12:46 +0900] upstream: , path: 
+2018/10/04 16:14:15 [notice] 11562#11562: signal process started
+[DEBUG][04/Oct/2018:16:14:17 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:14:17 [error] 11565#11565: *1036 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:26: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:14:17 +0900] upstream: , path: 
+2018/10/04 16:14:58 [notice] 11656#11656: signal process started
+[DEBUG][04/Oct/2018:16:15:07 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:15:07 +0900] upstream: sun.datasection.com, path: /wiki/
+[DEBUG][04/Oct/2018:16:15:08 +0900] upstream: sun.datasection.com, path: /wiki/index.php/\xE3\x83\xA1\xE3\x82\xA4\xE3\x83\xB3\xE3\x83\x9A\xE3\x83\xBC\xE3\x82\xB8
+2018/10/04 16:16:46 [notice] 11749#11749: signal process started
+[DEBUG][04/Oct/2018:16:16:51 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:16:51 +0900] upstream: sun.datasection.com, path: /wiki/
+[DEBUG][04/Oct/2018:16:16:51 +0900] upstream: sun.datasection.com, path: /wiki/index.php/\xE3\x83\xA1\xE3\x82\xA4\xE3\x83\xB3\xE3\x83\x9A\xE3\x83\xBC\xE3\x82\xB8
+2018/10/04 16:20:48 [notice] 11869#11869: signal process started
+[DEBUG][04/Oct/2018:16:20:53 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:26:13 [notice] 12007#12007: signal process started
+[DEBUG][04/Oct/2018:16:26:22 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:27:55 [notice] 12109#12109: signal process started
+[DEBUG][04/Oct/2018:16:27:59 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:28:31 +0900] upstream: mars.datasection.com, path: /gitlab
+2018/10/04 16:34:36 [emerg] 12328#12328: invalid number of arguments in "rewrite" directive in /root/restyroot/conf/nginx.conf:27
+2018/10/04 16:37:18 [notice] 12436#12436: signal process started
+[DEBUG][04/Oct/2018:16:37:24 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:37:24 +0900] upstream: sun.datasection.com, path: /wiki/
+[DEBUG][04/Oct/2018:16:37:24 +0900] upstream: sun.datasection.com, path: /wiki/index.php/\xE3\x83\xA1\xE3\x82\xA4\xE3\x83\xB3\xE3\x83\x9A\xE3\x83\xBC\xE3\x82\xB8
+2018/10/04 16:38:02 [notice] 12531#12531: signal process started
+[DEBUG][04/Oct/2018:16:38:05 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:41:12 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:41:34 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:41:59 [notice] 12652#12652: signal process started
+[DEBUG][04/Oct/2018:16:42:05 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:42:06 +0900] upstream: sun.datasection.com, path: /wiki/
+[DEBUG][04/Oct/2018:16:42:06 +0900] upstream: sun.datasection.com, path: /wiki/index.php/\xE3\x83\xA1\xE3\x82\xA4\xE3\x83\xB3\xE3\x83\x9A\xE3\x83\xBC\xE3\x82\xB8
+2018/10/04 16:43:59 [notice] 12714#12714: signal process started
+[DEBUG][04/Oct/2018:16:44:03 +0900] upstream: sun.datasection.com, path: /wiki
+[DEBUG][04/Oct/2018:16:44:03 +0900] upstream: sun.datasection.com, path: /wiki/
+[DEBUG][04/Oct/2018:16:44:03 +0900] upstream: sun.datasection.com, path: /wiki/index.php/\xE3\x83\xA1\xE3\x82\xA4\xE3\x83\xB3\xE3\x83\x9A\xE3\x83\xBC\xE3\x82\xB8
+[DEBUG][04/Oct/2018:16:44:26 +0900] upstream: sun.datasection.com, path: /wikii
+2018/10/04 16:48:11 [notice] 12832#12832: signal process started
+[DEBUG][04/Oct/2018:16:48:16 +0900] upstream: sun.datasection.com, path: /wikii
+2018/10/04 16:49:23 [notice] 14216#14216: signal process started
+2018/10/04 16:49:26 [error] 14219#14219: *1097 lua entry thread aborted: runtime error: /root/restyroot/lua/test.lua:30: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/test.lua: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:49:26 +0900] upstream: sun.datasection.com, path: /wikii
+2018/10/04 16:50:40 [notice] 14310#14310: signal process started
+2018/10/04 16:50:43 [error] 14313#14313: *1099 [lua] test.lua:32: nillllllllllllll!!, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:50:43 +0900] upstream: sun.datasection.com, path: /wikii
+2018/10/04 16:50:59 [error] 14313#14313: *1103 [lua] test.lua:30: res[1]['src']: /wikii, res[1]['dest']: /wiki, client: 192.168.0.22, server: , request: "GET /wiki HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:50:59 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:50:59 [error] 14313#14313: *1103 [lua] test.lua:32: nillllllllllllll!!, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:50:59 +0900] upstream: sun.datasection.com, path: /wiki/
+2018/10/04 16:50:59 [error] 14313#14313: *1103 [lua] test.lua:32: nillllllllllllll!!, client: 192.168.0.22, server: , request: "GET /wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8 HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:50:59 +0900] upstream: sun.datasection.com, path: /wiki/index.php/\xE3\x83\xA1\xE3\x82\xA4\xE3\x83\xB3\xE3\x83\x9A\xE3\x83\xBC\xE3\x82\xB8
+2018/10/04 16:52:17 [notice] 14412#14412: signal process started
+2018/10/04 16:52:21 [error] 14415#14415: *1108 [lua] test.lua:30: res[1]['src']: /wikii, res[1]['dest']: /wiki, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:52:21 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:52:26 [error] 14415#14415: *1112 [lua] test.lua:30: res[1]['src']: /wikii, res[1]['dest']: /wiki, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:52:26 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 16:52:37 [error] 14415#14415: *1114 [lua] test.lua:30: res[1]['src']: /wikii, res[1]['dest']: /wiki, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:16:52:37 +0900] upstream: sun.datasection.com, path: /wiki
+2018/10/04 17:06:28 [notice] 14624#14624: signal process started
+2018/10/04 17:06:35 [error] 14627#14627: *1117 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:1: '=' expected near 'root', client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:17:06:35 +0900] upstream: , path: 
+2018/10/04 17:06:41 [error] 14627#14627: *1118 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:1: '=' expected near 'root', client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:17:06:41 +0900] upstream: , path: 
+2018/10/04 17:08:23 [error] 14627#14627: *1119 failed to load external Lua file "/root/restyroot/lua/test.lua": /root/restyroot/lua/test.lua:1: '=' expected near 'root', client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:17:08:23 +0900] upstream: , path: 
+2018/10/04 17:09:22 [notice] 14776#14776: signal process started
+2018/10/04 17:09:27 [error] 14779#14779: *1120 the rewritten URI has a zero length, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:17:09:27 +0900] upstream: , path: 
+2018/10/04 17:11:05 [notice] 14876#14876: signal process started
+2018/10/04 17:11:08 [error] 14879#14879: *1121 the rewritten URI has a zero length, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:17:11:08 +0900] upstream: , path: 
+2018/10/04 17:17:54 [emerg] 15011#15011: invalid number of arguments in "set_by_lua_file" directive in /root/restyroot/conf/nginx.conf:26
+2018/10/04 17:21:58 [notice] 15137#15137: signal process started
+2018/10/04 17:23:47 [notice] 15230#15230: signal process started
+2018/10/04 17:23:53 [error] 15233#15233: *1122 failed to load external Lua file "/root/restyroot/": cannot read /root/restyroot/: Is a directory, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:17:23:53 +0900] upstream: , path: 
+2018/10/04 19:04:10 [notice] 16153#16153: signal process started
+2018/10/04 19:05:01 [notice] 16246#16246: signal process started
+2018/10/04 19:05:07 [error] 16249#16249: *1123 [lua] test.lua:1: ngx.var.host: sun.datasection.com, ngx.var.document_uri: /wikii, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 19:05:07 [error] 16249#16249: *1123 failed to run set_by_lua*: /usr/local/openresty/lualib/resty/mysql.lua:520: API disabled in the context of set_by_lua*
+stack traceback:
+	[C]: in function 'tcp'
+	/usr/local/openresty/lualib/resty/mysql.lua:520: in function 'new'
+	/root/restyroot/lua/test.lua:3: in function </root/restyroot/lua/test.lua:1>, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:19:05:07 +0900] upstream: , path: 
+2018/10/04 19:07:04 [notice] 16389#16389: signal process started
+2018/10/04 19:07:09 [error] 16392#16392: *1124 the rewritten URI has a zero length, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:19:07:09 +0900] upstream: , path: 
+2018/10/04 19:18:36 [notice] 16700#16700: signal process started
+2018/10/04 19:18:40 [error] 16703#16703: *1125 [lua] test.lua:1: ngx.var.host: sun.datasection.com, ngx.var.document_uri: /wikii, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 19:18:40 [error] 16703#16703: *1125 [lua] test.lua:32: res[1]['src']: /wikii, res[1]['dest']: /wiki, client: 192.168.0.22, server: , request: "GET /wikii HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:19:18:40 +0900] upstream: sun.datasection.com, path: 
+2018/10/04 19:18:40 [error] 16703#16703: *1125 [lua] test.lua:1: ngx.var.host: sun.datasection.com, ngx.var.document_uri: /wiki/, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 19:18:40 [error] 16703#16703: *1125 [lua] test.lua:34: nillllllllllllll!!, client: 192.168.0.22, server: , request: "GET /wiki/ HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:19:18:40 +0900] upstream: sun.datasection.com, path: 
+2018/10/04 19:18:40 [error] 16703#16703: *1125 [lua] test.lua:1: ngx.var.host: sun.datasection.com, ngx.var.document_uri: /wiki/index.php/メインページ, client: 192.168.0.22, server: , request: "GET /wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8 HTTP/1.1", host: "sun.datasection.com"
+2018/10/04 19:18:40 [error] 16703#16703: *1125 [lua] test.lua:34: nillllllllllllll!!, client: 192.168.0.22, server: , request: "GET /wiki/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8 HTTP/1.1", host: "sun.datasection.com"
+[DEBUG][04/Oct/2018:19:18:40 +0900] upstream: sun.datasection.com, path: 
