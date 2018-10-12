@@ -6,6 +6,27 @@ function regexp(str1, str2)
   return false
 end
 
+function basic_authentication(v)
+  local allow = false
+  if ngx.var.http_authorization then
+    local basic_auth = ngx.decode_base64(string.match(ngx.var.http_authorization, "^Basic (.*)"))
+    local user = string.match(basic_auth, "^(.+):.+$")
+    local pass = string.match(basic_auth, "^.+:(.+)$")
+    if user == v.username and pass == v.password then allow = true end
+  end
+  return allow
+end
+
+function ldap_authentication(v)
+  return true
+end
+
+function null_replace(v)
+  for item, index in pairs(v) do
+    ngx.log(ngx.ERR, "item: ", item, ", index: ", index)
+  end
+end
+
 local mysql = require "resty.mysql"
 local db, err = mysql:new()
 if not db then
@@ -25,33 +46,45 @@ if not ok then
   return
 end
 
-res, err, errno, sqlstate = db:query(string.format("select domain.vhost, domain.phost, path.src, path.dest, domain.deny from path inner join domain on path.domain_id = domain.id where vhost='%s';", ngx.var.host))
+res, err, errno, sqlstate = db:query(string.format("select domain.vhost, domain.phost, domain.deny, path.src, path.dest, path.auth_type, auth_user.username, auth_user.password from domain left join path on domain.id=path.domain_id left join path_user on path.id=path_user.path_id left join auth_user on path_user.user_id=auth_user.id where vhost='%s'", ngx.var.host))
 if not res then
   ngx.log(ngx.ERR, "bad result: ", err, ": ", errno, ": ", sqlstate, ".")
   return
 end
 
-flag = false
-for k, v in pairs(res) do
-  if v ~= nil and v.vhost == ngx.var.host then
-    ngx.var.upstream = v.phost
+-- upstremを設定
+if res[1] ~= nil then ngx.var.upstream = res[1].phost
+else ngx.var.upstream = ngx.var.host end
 
-    -- DBにindexされている場合
-    if regexp(ngx.var.document_uri, v.src) then
-      out_path = (string.format("%s", v.dest) ~= 'userdata: NULL') and v.dest or v.src
-      if v.src ~= out_path and out_path ~= ngx.var.document_uri then ngx.req.set_uri(out_path) end
-      flag = true
-      break
+-- indexされていないpathを通すか
+local allow_unindexed_path = false
+if res[1] ~= nil and res[1]['deny'] == 1 then
+  allow_unindexed_path = true
+end
+
+ngx.log(ngx.ERR, "allow_unindexed_path: ", allow_unindexed_path)
+
+for k, v in pairs(res) do
+  if v ~= nil and regexp(ngx.var.document_uri, v.src) then
+    null_replace(v)
+
+    -- pathを更新
+    out_path = (string.format("%s", v.dest) ~= 'userdata: NULL') and v.dest or v.src
+    if v.src ~= out_path and out_path ~= ngx.var.document_uri then ngx.req.set_uri(out_path) end
+
+    if v.auth_type == 'basic' then
+      ngx.header['WWW-Authenticate'] = 'Basic realm="Secret Zone"'
+      if not basic_authentication(v) then ngx.exit(401) end
+    elseif v.auth_type == 'ldap' then
+      ngx.header['WWW-Authenticate'] = 'Basic realm="Secret Zone"'
+      if not ldap_authentication(v) then ngx.exit(401) end
     end
   end
 end
 
-  -- DBにindexされていない場合
-if not flag then
-  if res[1] ~= nil and res[1]['deny'] == 0 or res[1] == nil then
-    ngx.var.upstream = "www.datasection.co.jp"
-    ngx.req.set_uri("/")
-  end
+if not allow_unindexed_path then
+  ngx.var.upstream = "www.datasection.co.jp"
+  ngx.req.set_uri("/")
 end
 
 local ok, err = db:set_keepalive(10000, 100)
