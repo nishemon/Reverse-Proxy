@@ -21,12 +21,6 @@ function ldap_authentication(v)
   return true
 end
 
-function null_replace(v)
-  for item, index in pairs(v) do
-    ngx.log(ngx.ERR, "item: ", item, ", index: ", index)
-  end
-end
-
 local mysql = require "resty.mysql"
 local db, err = mysql:new()
 if not db then
@@ -56,18 +50,13 @@ end
 if res[1] ~= nil then ngx.var.upstream = res[1].phost
 else ngx.var.upstream = ngx.var.host end
 
--- indexされていないpathを通すか
 local allow_unindexed_path = false
-if res[1] ~= nil and res[1]['deny'] == 1 then
-  allow_unindexed_path = true
-end
 
 ngx.log(ngx.ERR, "allow_unindexed_path: ", allow_unindexed_path)
 
 for k, v in pairs(res) do
   if v ~= nil and regexp(ngx.var.document_uri, v.src) then
-    null_replace(v)
-
+    allow_unindexed_path = true
     -- pathを更新
     out_path = (string.format("%s", v.dest) ~= 'userdata: NULL') and v.dest or v.src
     if v.src ~= out_path and out_path ~= ngx.var.document_uri then ngx.req.set_uri(out_path) end
@@ -86,6 +75,8 @@ if not allow_unindexed_path then
   ngx.var.upstream = "www.datasection.co.jp"
   ngx.req.set_uri("/")
 end
+
+ngx.log(ngx.ERR, "ngx.var.upstream: ", ngx.var.upstream, ", ngx.var.document_uri: ", ngx.var.document_uri)
 
 local ok, err = db:set_keepalive(10000, 100)
 if not ok then
