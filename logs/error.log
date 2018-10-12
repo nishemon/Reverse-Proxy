@@ -6054,3 +6054,666 @@ coroutine 0:
 2018/10/12 15:08:59 [notice] 14341#0: signal process started
 2018/10/12 15:08:59 [alert] 14208#0: *87 open socket #12 left in connection 1
 2018/10/12 15:08:59 [alert] 14208#0: aborting
+2018/10/12 15:15:16 [notice] 14534#0: signal process started
+2018/10/12 15:15:48 [error] 14537#0: *91 http_auth_ldap: Could not find user DN, client: 192.168.0.22, server: , request: "GET /ldap-auth HTTP/1.1", host: "sun.datasection.com"
+2018/10/12 15:16:10 [error] 14537#0: *92 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:16:10 [error] 14537#0: *92 [lua] proxy.lua:79: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:16:10 [error] 14537#0: *92 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:16:10 [error] 14537#0: *92 [lua] proxy.lua:79: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:17:53 [notice] 14635#0: signal process started
+2018/10/12 15:17:53 [alert] 14537#0: *90 open socket #12 left in connection 1
+2018/10/12 15:17:53 [alert] 14537#0: aborting
+2018/10/12 15:17:58 [error] 14638#0: *98 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:17:58 [error] 14638#0: *98 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:17:58 [error] 14638#0: *98 [lua] proxy.lua:82: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:18:59 [error] 14638#0: *102 http_auth_ldap: Could not find user DN, client: 192.168.0.22, server: , request: "GET /ldap-auth HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:24:45 [notice] 14777#0: signal process started
+2018/10/12 15:24:45 [alert] 14638#0: *97 open socket #12 left in connection 1
+2018/10/12 15:24:45 [alert] 14638#0: aborting
+2018/10/12 15:24:51 [error] 14780#0: *104 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:24:51 [error] 14780#0: *104 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:24:51 [error] 14780#0: *104 [lua] proxy.lua:82: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:58:52 [emerg] 15135#0: invalid parameter "PERMANENT" in /root/restyroot/conf/nginx.conf:26
+2018/10/12 15:59:10 [emerg] 15219#0: unknown log format "debug_log_fmt" in /root/restyroot/conf/nginx.conf:37
+2018/10/12 15:59:31 [notice] 15351#0: signal process started
+2018/10/12 15:59:32 [alert] 14780#0: *103 open socket #12 left in connection 1
+2018/10/12 15:59:32 [alert] 14780#0: aborting
+2018/10/12 15:59:43 [error] 15354#0: *109 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:59:43 [error] 15354#0: *109 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 15:59:43 [error] 15354#0: *109 [lua] proxy.lua:82: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:06:57 [notice] 15507#0: signal process started
+2018/10/12 16:06:57 [alert] 15354#0: *108 open socket #12 left in connection 1
+2018/10/12 16:06:57 [alert] 15354#0: aborting
+2018/10/12 16:13:30 [error] 15510#0: *118 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:13:30 [error] 15510#0: *118 [lua] proxy.lua:60: v.auth_type: null, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:13:30 [error] 15510#0: *118 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:13:30 [error] 15510#0: *118 [lua] proxy.lua:82: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:17:53 [notice] 15683#0: signal process started
+2018/10/12 16:17:53 [alert] 15510#0: *115 open socket #12 left in connection 1
+2018/10/12 16:17:53 [alert] 15510#0: aborting
+2018/10/12 16:17:58 [error] 15686#0: *123 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:17:58 [error] 15686#0: *123 [lua] proxy.lua:60: v.auth_type: null, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:17:58 [error] 15686#0: *123 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:17:58 [error] 15686#0: *123 [lua] proxy.lua:82: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:22:56 [notice] 15809#0: signal process started
+2018/10/12 16:22:56 [alert] 15686#0: *122 open socket #12 left in connection 1
+2018/10/12 16:22:56 [alert] 15686#0: aborting
+2018/10/12 16:23:24 [error] 15812#0: *133 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:23:24 [error] 15812#0: *133 [lua] proxy.lua:60: v.auth_type: null, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:23:24 [error] 15812#0: *133 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:23:24 [error] 15812#0: *133 [lua] proxy.lua:82: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:26:38 [notice] 15926#0: signal process started
+2018/10/12 16:26:39 [alert] 15812#0: *130 open socket #12 left in connection 1
+2018/10/12 16:26:39 [alert] 15812#0: aborting
+2018/10/12 16:26:43 [error] 15929#0: *138 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:26:43 [error] 15929#0: *138 [lua] proxy.lua:60: v.auth_type: null, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:26:43 [error] 15929#0: *138 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:26:43 [error] 15929#0: *138 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:29:46 [notice] 16037#0: signal process started
+2018/10/12 16:29:46 [alert] 15929#0: *137 open socket #12 left in connection 1
+2018/10/12 16:29:46 [alert] 15929#0: aborting
+2018/10/12 16:29:52 [error] 16040#0: *144 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:29:52 [error] 16040#0: *144 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:29:52 [error] 16040#0: *144 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:30:11 [error] 16040#0: *149 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/takai/IIToolkit/tree/master HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:30:11 [error] 16040#0: *149 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/takai/IIToolkit/tree/master HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:30:11 [error] 16040#0: *149 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab/takai/IIToolkit/tree/master HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:34:16 [notice] 16205#0: signal process started
+2018/10/12 16:34:16 [alert] 16040#0: *143 open socket #12 left in connection 1
+2018/10/12 16:34:16 [alert] 16040#0: aborting
+2018/10/12 16:34:23 [error] 16208#0: *154 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:34:23 [error] 16208#0: *154 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:34:23 [error] 16208#0: *154 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:34:49 [notice] 16290#0: signal process started
+2018/10/12 16:34:49 [alert] 16208#0: *153 open socket #12 left in connection 1
+2018/10/12 16:34:49 [alert] 16208#0: aborting
+2018/10/12 16:34:51 [error] 16293#0: *160 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:34:51 [error] 16293#0: *160 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:34:51 [error] 16293#0: *160 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:34:51 [error] 16293#0: *164 no resolver defined to resolve www.yahoo.co.jp, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:35:55 [notice] 16383#0: signal process started
+2018/10/12 16:35:55 [alert] 16293#0: *159 open socket #12 left in connection 1
+2018/10/12 16:35:55 [alert] 16293#0: aborting
+2018/10/12 16:36:00 [error] 16386#0: *166 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:36:00 [error] 16386#0: *166 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:36:00 [error] 16386#0: *166 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:05 [error] 16386#0: *173 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:05 [error] 16386#0: *173 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:05 [error] 16386#0: *173 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:40 [notice] 16526#0: signal process started
+2018/10/12 16:37:40 [alert] 16386#0: *165 open socket #12 left in connection 1
+2018/10/12 16:37:40 [alert] 16386#0: aborting
+2018/10/12 16:37:42 [error] 16529#0: *179 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:42 [error] 16529#0: *179 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:42 [error] 16529#0: *179 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:46 [error] 16529#0: *186 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:46 [error] 16529#0: *186 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:37:46 [error] 16529#0: *186 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:38:08 [error] 16529#0: *190 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:38:08 [error] 16529#0: *190 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:38:08 [error] 16529#0: *190 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:38:08 [error] 16529#0: *190 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", upstream: "http://[::1]:80/ldap-auth", host: "mars.datasection.com"
+2018/10/12 16:38:58 [error] 16529#0: *196 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/takai/IIToolkit/tree/master HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:38:58 [error] 16529#0: *196 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/takai/IIToolkit/tree/master HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:38:58 [error] 16529#0: *196 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab/takai/IIToolkit/tree/master HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:41:11 [notice] 16637#0: signal process started
+2018/10/12 16:41:11 [alert] 16529#0: *178 open socket #12 left in connection 1
+2018/10/12 16:41:11 [alert] 16529#0: aborting
+2018/10/12 16:41:18 [error] 16640#0: *202 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:41:18 [error] 16640#0: *202 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:41:18 [error] 16640#0: *202 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:41:18 [error] 16640#0: *206 [lua] redirect.lua:3: ngx.var.host: mars.datasection.com, ngx.var.upstream: www.yahoo.co.jp, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:42:46 [notice] 16738#0: signal process started
+2018/10/12 16:42:46 [alert] 16640#0: *201 open socket #12 left in connection 1
+2018/10/12 16:42:46 [alert] 16640#0: aborting
+2018/10/12 16:42:51 [error] 16741#0: *210 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:42:51 [error] 16741#0: *210 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:42:51 [error] 16741#0: *210 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:42:51 [error] 16741#0: *214 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:44:55 [error] 16741#0: *217 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:44:55 [error] 16741#0: *217 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:44:55 [error] 16741#0: *217 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:44:55 [error] 16741#0: *220 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:44:56 [error] 16741#0: *217 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:44:56 [error] 16741#0: *217 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:44:56 [error] 16741#0: *217 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:44:56 [error] 16741#0: *217 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", upstream: "http://[::1]:80/ldap-auth", host: "mars.datasection.com"
+2018/10/12 16:44:56 [error] 16741#0: *224 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:52:38 [notice] 16906#0: signal process started
+2018/10/12 16:52:38 [alert] 16741#0: *209 open socket #12 left in connection 1
+2018/10/12 16:52:38 [alert] 16741#0: aborting
+2018/10/12 16:52:46 [error] 16909#0: *227 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:52:46 [error] 16909#0: *227 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:52:46 [error] 16909#0: *227 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:52:46 [error] 16909#0: *231 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:53:58 [notice] 16999#0: signal process started
+2018/10/12 16:53:59 [alert] 16909#0: *226 open socket #12 left in connection 1
+2018/10/12 16:53:59 [alert] 16909#0: aborting
+2018/10/12 16:54:10 [error] 17002#0: *235 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:10 [error] 17002#0: *235 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:10 [error] 17002#0: *235 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:10 [error] 17002#0: *239 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:54:10 [error] 17002#0: *239 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /?hello=111, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:54:29 [error] 17002#0: *242 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:29 [error] 17002#0: *242 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:29 [error] 17002#0: *242 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:29 [error] 17002#0: *242 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", upstream: "http://[::1]:80/ldap-auth", host: "mars.datasection.com"
+2018/10/12 16:54:29 [error] 17002#0: *246 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:54:29 [error] 17002#0: *246 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /?hello=111, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:54:39 [error] 17002#0: *242 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:39 [error] 17002#0: *242 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:39 [error] 17002#0: *242 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 16:54:39 [error] 17002#0: *249 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 16:54:39 [error] 17002#0: *249 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /?hello=111, client: 127.0.0.1, server: , request: "GET /ldap-auth HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:01:39 [notice] 17205#0: signal process started
+2018/10/12 17:01:39 [alert] 17002#0: *234 open socket #12 left in connection 1
+2018/10/12 17:01:39 [alert] 17002#0: aborting
+2018/10/12 17:01:48 [error] 17208#0: *252 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:01:48 [error] 17208#0: *252 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:01:48 [error] 17208#0: *252 lua entry thread aborted: runtime error: /root/restyroot/lua/proxy.lua:70: variable "arg_path" not found for writing; maybe it is a built-in variable that is not changeable or you forgot to use "set $arg_path '';" in the config file to define it first
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/proxy.lua:70: in function </root/restyroot/lua/proxy.lua:1>, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:11:41 [notice] 17371#0: signal process started
+2018/10/12 17:11:41 [alert] 17208#0: *251 open socket #12 left in connection 1
+2018/10/12 17:11:41 [alert] 17208#0: aborting
+2018/10/12 17:11:44 [error] 17374#0: *255 failed to load external Lua file "/root/restyroot/lua/proxy.lua": /root/restyroot/lua/proxy.lua:70: '=' expected near '+', client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:12:24 [notice] 17464#0: signal process started
+2018/10/12 17:12:24 [alert] 17374#0: *254 open socket #12 left in connection 1
+2018/10/12 17:12:24 [alert] 17374#0: aborting
+2018/10/12 17:12:28 [error] 17467#0: *257 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:12:28 [error] 17467#0: *257 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:12:28 [error] 17467#0: *257 lua entry thread aborted: runtime error: /root/restyroot/lua/proxy.lua:70: attempt to concatenate field 'args' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/proxy.lua: in function </root/restyroot/lua/proxy.lua:1>, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:13:01 [notice] 17549#0: signal process started
+2018/10/12 17:13:02 [alert] 17467#0: *256 open socket #12 left in connection 1
+2018/10/12 17:13:02 [alert] 17467#0: aborting
+2018/10/12 17:13:07 [error] 17552#0: *260 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:13:07 [error] 17552#0: *260 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:13:07 [error] 17552#0: *260 [lua] proxy.lua:82: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:13:07 [error] 17552#0: *264 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, ngx.var.args: /gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:13:07 [error] 17552#0: *264 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /?hello=111, client: 127.0.0.1, server: , request: "GET /ldap-auth?/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:14:11 [error] 17552#0: *267 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:14:11 [error] 17552#0: *267 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:14:11 [error] 17552#0: *267 [lua] proxy.lua:82: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:14:11 [error] 17552#0: *270 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, ngx.var.args: /gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:14:11 [error] 17552#0: *270 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /?hello=111, client: 127.0.0.1, server: , request: "GET /ldap-auth?/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:14:58 [notice] 17651#0: signal process started
+2018/10/12 17:14:59 [alert] 17552#0: *259 open socket #12 left in connection 1
+2018/10/12 17:14:59 [alert] 17552#0: aborting
+2018/10/12 17:15:02 [error] 17654#0: *273 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:15:02 [error] 17654#0: *273 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:15:02 [error] 17654#0: *273 [lua] proxy.lua:82: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:15:02 [error] 17654#0: *277 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, ngx.var.args: /gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:15:02 [error] 17654#0: *277 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /, client: 127.0.0.1, server: , request: "GET /ldap-auth?/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:15:59 [notice] 17744#0: signal process started
+2018/10/12 17:15:59 [alert] 17654#0: *272 open socket #12 left in connection 1
+2018/10/12 17:15:59 [alert] 17654#0: aborting
+2018/10/12 17:16:03 [error] 17747#0: *281 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:16:03 [error] 17747#0: *281 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:16:03 [error] 17747#0: *281 [lua] proxy.lua:70: ngx.var.args: 1111, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:16:03 [error] 17747#0: *281 [lua] proxy.lua:83: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:16:03 [error] 17747#0: *285 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, ngx.var.args: /gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:16:03 [error] 17747#0: *285 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /, client: 127.0.0.1, server: , request: "GET /ldap-auth?/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:18:00 [notice] 17847#0: signal process started
+2018/10/12 17:18:00 [alert] 17747#0: *280 open socket #12 left in connection 1
+2018/10/12 17:18:00 [alert] 17747#0: aborting
+2018/10/12 17:18:04 [error] 17850#0: *289 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:18:04 [error] 17850#0: *289 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:18:04 [error] 17850#0: *289 [lua] proxy.lua:70: ngx.var.args: 1111, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:18:04 [error] 17850#0: *289 [lua] proxy.lua:84: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:18:04 [error] 17850#0: *293 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, ngx.var.args: 1111path=/gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?1111path=/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:18:04 [error] 17850#0: *293 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /, client: 127.0.0.1, server: , request: "GET /ldap-auth?1111path=/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:21:00 [notice] 17956#0: signal process started
+2018/10/12 17:21:00 [alert] 17850#0: *288 open socket #12 left in connection 1
+2018/10/12 17:21:00 [alert] 17850#0: aborting
+2018/10/12 17:21:13 [error] 17959#0: *297 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:21:13 [error] 17959#0: *297 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:21:13 [error] 17959#0: *297 [lua] proxy.lua:70: ngx.var.args: 1111, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:21:13 [error] 17959#0: *297 [lua] proxy.lua:84: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:21:13 [error] 17959#0: *301 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, ngx.var.args: 1111&path=/gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?1111&path=/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:21:13 [error] 17959#0: *301 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /, client: 127.0.0.1, server: , request: "GET /ldap-auth?1111&path=/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:22:01 [notice] 18049#0: signal process started
+2018/10/12 17:22:01 [alert] 17959#0: *296 open socket #12 left in connection 1
+2018/10/12 17:22:01 [alert] 17959#0: aborting
+2018/10/12 17:22:03 [error] 18052#0: *305 [lua] proxy.lua:55: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:22:03 [error] 18052#0: *305 [lua] proxy.lua:60: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:22:03 [error] 18052#0: *305 [lua] proxy.lua:70: ngx.var.args: 1111, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:22:03 [error] 18052#0: *305 [lua] proxy.lua:84: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab?1111 HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 17:22:03 [error] 18052#0: *309 [lua] redirect.lua:1: ngx.var.host: mars.datasection.com, ngx.var.document_uri: /ldap-auth, ngx.var.arg_path: /gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?1111&path=/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 17:22:03 [error] 18052#0: *309 [lua] redirect.lua:4: ngx.var.upstream: www.yahoo.co.jp, ngx.var.document_uri: /, client: 127.0.0.1, server: , request: "GET /ldap-auth?1111&path=/gitlab HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 18:19:24 [notice] 18699#0: signal process started
+2018/10/12 18:19:24 [alert] 18052#0: *304 open socket #12 left in connection 1
+2018/10/12 18:19:24 [alert] 18052#0: aborting
+2018/10/12 18:19:31 [notice] 18783#0: signal process started
+2018/10/12 18:19:32 [alert] 18702#0: *312 open socket #12 left in connection 1
+2018/10/12 18:19:32 [alert] 18702#0: aborting
+2018/10/12 18:20:02 [error] 18786#0: *314 failed to load external Lua file "/root/restyroot/lua/proxy.lua": /root/restyroot/lua/proxy.lua:110: 'end' expected (to close 'function' at line 20) near '<eof>', client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:21:19 [notice] 18883#0: signal process started
+2018/10/12 18:21:19 [alert] 18786#0: *313 open socket #12 left in connection 1
+2018/10/12 18:21:19 [alert] 18786#0: aborting
+2018/10/12 18:21:21 [error] 18886#0: *316 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:21:21 [error] 18886#0: *316 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:21:21 [error] 18886#0: *316 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:21:21 [error] 18886#0: *320 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:3: variable "document_uri" not changeable
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/redirect.lua:3: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 18:22:34 [notice] 18976#0: signal process started
+2018/10/12 18:22:35 [alert] 18886#0: *315 open socket #12 left in connection 1
+2018/10/12 18:22:35 [alert] 18886#0: aborting
+2018/10/12 18:22:39 [error] 18979#0: *322 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:22:39 [error] 18979#0: *322 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:22:39 [error] 18979#0: *322 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:22:39 [error] 18979#0: *326 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:7: variable "cookie_hash" not found for writing; maybe it is a built-in variable that is not changeable or you forgot to use "set $cookie_hash '';" in the config file to define it first
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/redirect.lua:7: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 18:42:08 [notice] 19255#0: signal process started
+2018/10/12 18:42:08 [alert] 18979#0: *321 open socket #12 left in connection 1
+2018/10/12 18:42:08 [alert] 18979#0: aborting
+2018/10/12 18:42:12 [error] 19258#0: *328 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:42:12 [error] 19258#0: *328 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:42:12 [error] 19258#0: *328 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:42:12 [error] 19258#0: *332 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:7: variable "cookie_hash" not found for writing; maybe it is a built-in variable that is not changeable or you forgot to use "set $cookie_hash '';" in the config file to define it first
+stack traceback:
+coroutine 0:
+	[C]: in function '__newindex'
+	/root/restyroot/lua/redirect.lua:7: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 18:48:56 [notice] 19398#0: signal process started
+2018/10/12 18:48:56 [alert] 19258#0: *327 open socket #12 left in connection 1
+2018/10/12 18:48:56 [alert] 19258#0: aborting
+2018/10/12 18:49:00 [error] 19401#0: *334 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:49:00 [error] 19401#0: *334 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:49:00 [error] 19401#0: *334 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:49:00 [error] 19401#0: *338 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:9: attempt to index local 'hash_list' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/redirect.lua: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 18:51:06 [notice] 19499#0: signal process started
+2018/10/12 18:51:06 [alert] 19401#0: *333 open socket #12 left in connection 1
+2018/10/12 18:51:06 [alert] 19401#0: aborting
+2018/10/12 18:51:09 [error] 19502#0: *340 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:51:09 [error] 19502#0: *340 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:51:09 [error] 19502#0: *340 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:51:09 [error] 19502#0: *344 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:9: attempt to index local 'hash_list' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/redirect.lua: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 18:51:32 [notice] 19592#0: signal process started
+2018/10/12 18:51:32 [alert] 19502#0: *339 open socket #12 left in connection 1
+2018/10/12 18:51:32 [alert] 19502#0: aborting
+2018/10/12 18:51:36 [error] 19595#0: *346 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:51:36 [error] 19595#0: *346 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:51:36 [error] 19595#0: *346 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 18:51:36 [error] 19595#0: *350 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:11: attempt to index local 'hash_list' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/redirect.lua: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 19:49:20 [emerg] 20157#0: invalid number of arguments in "lua_shared_dict" directive in /root/restyroot/conf/nginx.conf:19
+2018/10/12 19:52:21 [notice] 20265#0: signal process started
+2018/10/12 19:52:21 [alert] 19595#0: *345 open socket #12 left in connection 1
+2018/10/12 19:52:21 [alert] 19595#0: aborting
+2018/10/12 19:52:28 [error] 20268#0: *352 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:52:28 [error] 20268#0: *352 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:52:28 [error] 20268#0: *352 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:52:28 [error] 20268#0: *356 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:15: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/redirect.lua: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 19:55:53 [notice] 20375#0: signal process started
+2018/10/12 19:55:53 [alert] 20268#0: *351 open socket #12 left in connection 1
+2018/10/12 19:55:53 [alert] 20268#0: aborting
+2018/10/12 19:55:58 [error] 20378#0: *358 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:55:58 [error] 20378#0: *358 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:55:58 [error] 20378#0: *358 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:55:58 [error] 20378#0: *362 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:12: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/redirect.lua: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 19:56:47 [notice] 20468#0: signal process started
+2018/10/12 19:56:47 [alert] 20378#0: *357 open socket #12 left in connection 1
+2018/10/12 19:56:47 [alert] 20378#0: aborting
+2018/10/12 19:56:51 [error] 20471#0: *364 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:56:51 [error] 20471#0: *364 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:56:51 [error] 20471#0: *364 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:56:51 [error] 20471#0: *368 [lua] redirect.lua:6: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 19:56:51 [error] 20471#0: *368 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:13: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/redirect.lua: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 19:58:09 [notice] 20561#0: signal process started
+2018/10/12 19:58:09 [alert] 20471#0: *363 open socket #12 left in connection 1
+2018/10/12 19:58:09 [alert] 20471#0: aborting
+2018/10/12 19:58:13 [error] 20564#0: *370 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:58:13 [error] 20564#0: *370 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:58:13 [error] 20564#0: *370 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 19:58:13 [error] 20564#0: *374 [lua] redirect.lua:6: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 19:58:13 [error] 20564#0: *374 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:13: bad argument #2 to 'log' (expected table to have __tostring metamethod)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/root/restyroot/lua/redirect.lua:13: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:02:06 [notice] 20734#0: signal process started
+2018/10/12 20:02:06 [alert] 20564#0: *369 open socket #12 left in connection 1
+2018/10/12 20:02:06 [alert] 20564#0: aborting
+2018/10/12 20:02:08 [error] 20737#0: *376 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:02:08 [error] 20737#0: *376 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:02:08 [error] 20737#0: *376 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:02:08 [error] 20737#0: *380 [lua] redirect.lua:7: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:02:08 [error] 20737#0: *380 lua entry thread aborted: runtime error: /root/restyroot/lua/redirect.lua:14: bad argument #2 to 'log' (expected table to have __tostring metamethod)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	/root/restyroot/lua/redirect.lua:14: in function </root/restyroot/lua/redirect.lua:1>, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:03:15 [notice] 20827#0: signal process started
+2018/10/12 20:03:15 [alert] 20737#0: *375 open socket #12 left in connection 1
+2018/10/12 20:03:15 [alert] 20737#0: aborting
+2018/10/12 20:03:20 [error] 20830#0: *382 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:03:20 [error] 20830#0: *382 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:03:20 [error] 20830#0: *382 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:03:20 [error] 20830#0: *386 [lua] redirect.lua:7: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:03:20 [error] 20830#0: *386 [lua] redirect.lua:14: json: [794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:03:20 [error] 20830#0: *386 [lua] redirect.lua:20: hash_list: [794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:03:20 [error] 20830#0: *386 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab?path=/gitlab&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:04:19 [error] 20830#0: *389 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:04:19 [error] 20830#0: *389 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:04:19 [error] 20830#0: *389 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:04:19 [error] 20830#0: *392 [lua] redirect.lua:7: hash: 698852465638, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:04:19 [error] 20830#0: *392 [lua] redirect.lua:20: hash_list: [794206292432,698852465638], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:04:19 [error] 20830#0: *392 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab?path=/gitlab&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:06:38 [error] 20830#0: *394 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:06:38 [error] 20830#0: *394 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:06:38 [error] 20830#0: *394 [lua] proxy.lua:104: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:06:38 [error] 20830#0: *394 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", upstream: "http://[::1]:80/ldap-auth?path=/gitlab/&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:06:38 [error] 20830#0: *398 [lua] redirect.lua:7: hash: 590103741729, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:06:38 [error] 20830#0: *398 [lua] redirect.lua:20: hash_list: [794206292432,698852465638,590103741729], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:06:38 [error] 20830#0: *398 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab/?path=/gitlab/&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:07:01 [error] 20830#0: *394 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:07:01 [error] 20830#0: *394 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:07:01 [error] 20830#0: *394 lua entry thread aborted: runtime error: /root/restyroot/lua/proxy.lua:23: attempt to index field 'hash_key' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/proxy.lua: in function 'ldap_authentication'
+	/root/restyroot/lua/proxy.lua:86: in function </root/restyroot/lua/proxy.lua:1>, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:08:02 [notice] 20957#0: signal process started
+2018/10/12 20:08:02 [alert] 20830#0: *381 open socket #12 left in connection 1
+2018/10/12 20:08:02 [alert] 20830#0: aborting
+2018/10/12 20:08:17 [error] 20960#0: *402 [lua] proxy.lua:70: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:08:17 [error] 20960#0: *402 [lua] proxy.lua:75: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:08:17 [error] 20960#0: *402 lua entry thread aborted: runtime error: /root/restyroot/lua/proxy.lua:23: attempt to index field 'hash_key' (a nil value)
+stack traceback:
+coroutine 0:
+	/root/restyroot/lua/proxy.lua: in function 'ldap_authentication'
+	/root/restyroot/lua/proxy.lua:86: in function </root/restyroot/lua/proxy.lua:1>, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:11:49 [notice] 21075#0: signal process started
+2018/10/12 20:11:49 [alert] 20960#0: *401 open socket #12 left in connection 1
+2018/10/12 20:11:49 [alert] 20960#0: aborting
+2018/10/12 20:11:54 [error] 21078#0: *405 [lua] proxy.lua:72: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:11:54 [error] 21078#0: *405 [lua] proxy.lua:77: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:11:54 [error] 21078#0: *405 [lua] proxy.lua:106: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:11:54 [error] 21078#0: *409 [lua] redirect.lua:7: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:11:54 [error] 21078#0: *409 [lua] redirect.lua:20: hash_list: [794206292432,698852465638,590103741729,794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:11:54 [error] 21078#0: *409 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab/?path=/gitlab/&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:14:19 [notice] 21184#0: signal process started
+2018/10/12 20:14:19 [alert] 21078#0: *404 open socket #12 left in connection 1
+2018/10/12 20:14:19 [alert] 21078#0: aborting
+2018/10/12 20:14:32 [error] 21187#0: *413 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *413 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *413 [lua] proxy.lua:31: ldap_authentication(): item: 1, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *413 [lua] proxy.lua:31: ldap_authentication(): item: 2, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *413 [lua] proxy.lua:31: ldap_authentication(): item: 3, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *413 [lua] proxy.lua:31: ldap_authentication(): item: 4, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *413 [lua] proxy.lua:107: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *417 [lua] redirect.lua:7: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *417 [lua] redirect.lua:20: hash_list: [794206292432,698852465638,590103741729,794206292432,794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:14:32 [error] 21187#0: *417 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab/?path=/gitlab/&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:16:09 [notice] 21333#0: signal process started
+2018/10/12 20:16:09 [alert] 21187#0: *412 open socket #12 left in connection 1
+2018/10/12 20:16:09 [alert] 21187#0: aborting
+2018/10/12 20:16:13 [error] 21336#0: *421 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:13 [error] 21336#0: *421 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:13 [error] 21336#0: *421 [lua] proxy.lua:107: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:13 [error] 21336#0: *425 [lua] redirect.lua:7: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:16:13 [error] 21336#0: *425 [lua] redirect.lua:20: hash_list: [794206292432,698852465638,590103741729,794206292432,794206292432,794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:16:13 [error] 21336#0: *425 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab?path=/gitlab&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:31: ldap_authentication(): value: 698852465638, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:31: ldap_authentication(): value: 590103741729, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *428 [lua] proxy.lua:107: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *431 [lua] redirect.lua:7: hash: 698852465638, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *431 [lua] redirect.lua:20: hash_list: [794206292432,698852465638,590103741729,794206292432,794206292432,794206292432,698852465638], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:16:27 [error] 21336#0: *431 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab?path=/gitlab&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:17:03 [error] 21336#0: *428 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:17:03 [error] 21336#0: *428 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:17:03 [error] 21336#0: *428 [lua] proxy.lua:107: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:17:03 [error] 21336#0: *435 [lua] redirect.lua:7: hash: 590103741729, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:17:03 [error] 21336#0: *435 [lua] redirect.lua:20: hash_list: [794206292432,698852465638,590103741729,794206292432,794206292432,794206292432,698852465638,590103741729], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:17:03 [error] 21336#0: *435 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab?path=/gitlab&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 20:18:23 [notice] 21444#0: signal process started
+2018/10/12 20:18:23 [alert] 21336#0: *420 open socket #12 left in connection 1
+2018/10/12 20:18:23 [alert] 21336#0: aborting
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]590103741729, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:31: ldap_authentication(): value: 698852465638, ngx.var[cookie_hash]590103741729, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:31: ldap_authentication(): value: 590103741729, ngx.var[cookie_hash]590103741729, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]590103741729, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]590103741729, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]590103741729, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:31: ldap_authentication(): value: 698852465638, ngx.var[cookie_hash]590103741729, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:31: ldap_authentication(): value: 590103741729, ngx.var[cookie_hash]590103741729, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *438 [lua] proxy.lua:107: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *442 [lua] redirect.lua:8: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *442 [lua] redirect.lua:21: hash_list: [794206292432,698852465638,590103741729,794206292432,794206292432,794206292432,698852465638,590103741729,794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:18:29 [error] 21447#0: *442 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab", host: "mars.datasection.com"
+2018/10/12 20:22:59 [notice] 21644#0: signal process started
+2018/10/12 20:22:59 [alert] 21447#0: *437 open socket #12 left in connection 1
+2018/10/12 20:22:59 [alert] 21447#0: aborting
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 698852465638, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 590103741729, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 698852465638, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 590103741729, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *446 [lua] proxy.lua:108: ngx.var.upstream: localhost, ngx.var.document_uri: /ldap-auth, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *450 [lua] redirect.lua:8: hash: 794206292432, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *450 [lua] redirect.lua:21: hash_list: [794206292432,698852465638,590103741729,794206292432,794206292432,794206292432,698852465638,590103741729,794206292432,794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:23:04 [error] 21647#0: *450 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab", host: "mars.datasection.com"
+2018/10/12 20:24:56 [notice] 21745#0: signal process started
+2018/10/12 20:24:56 [alert] 21647#0: *445 open socket #12 left in connection 1
+2018/10/12 20:24:56 [alert] 21647#0: aborting
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:33: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:108: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:33: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:108: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:33: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *454 [lua] proxy.lua:108: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:33: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:108: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:33: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:108: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg, client: 192.168.0.22, server: , request: "GET /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *463 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *463 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *463 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *463 [lua] proxy.lua:33: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *463 [lua] proxy.lua:108: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png, client: 192.168.0.22, server: , request: "GET /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:33: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *461 [lua] proxy.lua:108: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css, client: 192.168.0.22, server: , request: "GET /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:74: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/assets/favicon-f94769e0b5cd9088e7b3a6d4625d7296.ico HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:79: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/assets/favicon-f94769e0b5cd9088e7b3a6d4625d7296.ico HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:31: ldap_authentication(): value: 794206292432, ngx.var[cookie_hash]: 794206292432, client: 192.168.0.22, server: , request: "GET /gitlab/assets/favicon-f94769e0b5cd9088e7b3a6d4625d7296.ico HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:33: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/favicon-f94769e0b5cd9088e7b3a6d4625d7296.ico HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:25:03 [error] 21748#0: *460 [lua] proxy.lua:108: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/favicon-f94769e0b5cd9088e7b3a6d4625d7296.ico, client: 192.168.0.22, server: , request: "GET /gitlab/assets/favicon-f94769e0b5cd9088e7b3a6d4625d7296.ico HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:26:40 [notice] 21889#0: signal process started
+2018/10/12 20:26:40 [alert] 21748#0: *453 open socket #12 left in connection 1
+2018/10/12 20:26:40 [alert] 21748#0: aborting
+2018/10/12 20:26:48 [error] 21892#0: *470 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:26:48 [error] 21892#0: *470 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:26:48 [error] 21892#0: *470 [lua] proxy.lua:32: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:26:48 [error] 21892#0: *470 [lua] proxy.lua:107: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:26:48 [error] 21892#0: *470 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:26:48 [error] 21892#0: *470 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:26:48 [error] 21892#0: *470 [lua] proxy.lua:32: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:26:48 [error] 21892#0: *470 [lua] proxy.lua:107: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:08 [error] 21892#0: *470 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:08 [error] 21892#0: *470 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:08 [error] 21892#0: *470 [lua] proxy.lua:32: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:08 [error] 21892#0: *470 [lua] proxy.lua:107: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:08 [error] 21892#0: *470 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:08 [error] 21892#0: *470 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:08 [error] 21892#0: *470 [lua] proxy.lua:32: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:08 [error] 21892#0: *470 [lua] proxy.lua:107: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:34 [error] 21892#0: *470 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:34 [error] 21892#0: *470 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:34 [error] 21892#0: *470 [lua] proxy.lua:32: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:34 [error] 21892#0: *470 [lua] proxy.lua:107: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:34 [error] 21892#0: *470 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:34 [error] 21892#0: *470 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:34 [error] 21892#0: *470 [lua] proxy.lua:32: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:34 [error] 21892#0: *470 [lua] proxy.lua:107: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:48 [error] 21892#0: *470 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:48 [error] 21892#0: *470 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:48 [error] 21892#0: *470 [lua] proxy.lua:32: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:48 [error] 21892#0: *470 [lua] proxy.lua:107: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:48 [error] 21892#0: *470 [lua] proxy.lua:73: allow_unindexed_path: false, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:48 [error] 21892#0: *470 [lua] proxy.lua:78: v.auth_type: ldap, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:48 [error] 21892#0: *470 [lua] proxy.lua:32: ldap_authentication(): Success!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:27:48 [error] 21892#0: *470 [lua] proxy.lua:107: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:29:22 [notice] 22002#0: signal process started
+2018/10/12 20:29:22 [alert] 21892#0: *469 open socket #12 left in connection 1
+2018/10/12 20:29:22 [alert] 21892#0: aborting
+2018/10/12 20:29:29 [error] 22005#0: *489 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab", host: "mars.datasection.com"
+2018/10/12 20:31:25 [error] 22005#0: *501 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab", host: "mars.datasection.com"
+2018/10/12 20:32:24 [error] 22005#0: *508 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab/users/sign_in", host: "mars.datasection.com"
+2018/10/12 20:38:21 [error] 22005#0: *516 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET //ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.1", upstream: "https://192.168.0.3:443/gitlab/users/sign_in", host: "mars.datasection.com"
+2018/10/12 20:39:00 [error] 22005#0: *516 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.1", upstream: "https://192.168.0.3:443/gitlab", host: "mars.datasection.com"
+2018/10/12 20:39:17 [error] 22005#0: *516 mars could not be resolved (3: Host not found), client: 192.168.0.22, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:44:05 [notice] 22209#0: signal process started
+2018/10/12 20:44:05 [alert] 22005#0: *484 open socket #12 left in connection 1
+2018/10/12 20:44:05 [alert] 22005#0: aborting
+2018/10/12 20:44:20 [error] 22212#0: *527 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:44:20 [error] 22212#0: *527 [lua] proxy.lua:92: ngx.var.argsL: path=/gitlab&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:44:20 [error] 22212#0: *531 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab", host: "mars.datasection.com"
+2018/10/12 20:46:21 [notice] 22319#0: signal process started
+2018/10/12 20:46:21 [alert] 22212#0: *526 open socket #12 left in connection 1
+2018/10/12 20:46:21 [alert] 22212#0: aborting
+2018/10/12 20:46:27 [notice] 22362#0: signal process started
+2018/10/12 20:46:27 [alert] 22322#0: *534 open socket #12 left in connection 1
+2018/10/12 20:46:27 [alert] 22322#0: aborting
+2018/10/12 20:46:45 [error] 22365#0: *536 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:46:45 [error] 22365#0: *536 [lua] proxy.lua:92: ngx.var.argsL: path=/gitlab&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:46:45 [error] 22365#0: *540 [lua] redirect.lua:10: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:46:45 [error] 22365#0: *540 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab", host: "mars.datasection.com"
+2018/10/12 20:48:20 [notice] 22504#0: signal process started
+2018/10/12 20:48:20 [alert] 22365#0: *535 open socket #12 left in connection 1
+2018/10/12 20:48:20 [alert] 22365#0: aborting
+2018/10/12 20:48:37 [error] 22507#0: *544 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:48:37 [error] 22507#0: *544 [lua] proxy.lua:92: ngx.var.args: path=/gitlab&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:48:37 [error] 22507#0: *548 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:48:37 [error] 22507#0: *548 [lua] redirect.lua:11: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:48:37 [error] 22507#0: *548 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", upstream: "https://192.168.0.3:443/gitlab", host: "mars.datasection.com"
+2018/10/12 20:49:22 [notice] 22556#0: signal process started
+2018/10/12 20:49:37 [notice] 22642#0: signal process started
+2018/10/12 20:49:37 [alert] 22600#0: *1 open socket #10 left in connection 1
+2018/10/12 20:49:37 [alert] 22600#0: aborting
+2018/10/12 20:51:22 [notice] 22742#0: signal process started
+2018/10/12 20:51:22 [alert] 22645#0: *2 open socket #12 left in connection 1
+2018/10/12 20:51:22 [alert] 22645#0: aborting
+2018/10/12 20:51:37 [error] 22745#0: *4 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:51:37 [error] 22745#0: *4 [lua] proxy.lua:92: ngx.var.args: path=/gitlab&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:51:37 [error] 22745#0: *8 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:51:37 [error] 22745#0: *8 [lua] redirect.lua:11: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:53:12 [notice] 22835#0: signal process started
+2018/10/12 20:53:12 [alert] 22745#0: *3 open socket #12 left in connection 1
+2018/10/12 20:53:12 [alert] 22745#0: aborting
+2018/10/12 20:53:38 [error] 22838#0: *13 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:53:38 [error] 22838#0: *13 [lua] proxy.lua:92: ngx.var.args: path=/gitlab&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:53:38 [error] 22838#0: *17 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:53:38 [error] 22838#0: *17 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:53:38 [error] 22838#0: *17 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:53:38 [error] 22838#0: *17 [lua] redirect.lua:23: hash_list: [794206292432,794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:05 [error] 22838#0: *13 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:55:05 [error] 22838#0: *13 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/users/sign_in&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:55:05 [error] 22838#0: *27 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:05 [error] 22838#0: *27 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:05 [error] 22838#0: *27 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:05 [error] 22838#0: *27 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:31 [error] 22838#0: *31 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:55:31 [error] 22838#0: *31 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/users/sign_in&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:55:31 [error] 22838#0: *34 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:31 [error] 22838#0: *34 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:31 [error] 22838#0: *34 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:31 [error] 22838#0: *34 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638,590103741729], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:55:31 [error] 22838#0: *31 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *31 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css HTTP/1.1", upstream: "http://[::1]:80/ldap-auth?path=/gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css&domain=mars.datasection.com", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *38 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *38 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *38 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *38 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638,590103741729,753228616684], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/application-d898dc1f4e298a776b6df196f3314f62.css&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *40 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *40 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *40 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css HTTP/1.1", upstream: "http://[::1]:80/ldap-auth?path=/gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css&domain=mars.datasection.com", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *46 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *46 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *46 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *46 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638,590103741729,753228616684,80971251200], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/print-708305e19bdbc9a00d8b573c520032cf.css&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *43 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *43 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *45 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *45 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *50 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *50 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *50 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *50 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638,590103741729,753228616684,80971251200,661107195996], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/application-9fb498a2d3c46cf66c5d9970783f0696.js&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *45 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png HTTP/1.1", upstream: "http://[::1]:80/ldap-auth?path=/gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png&domain=mars.datasection.com", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *54 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *54 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *54 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *54 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638,590103741729,753228616684,80971251200,661107195996,339333411404], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/authbuttons/bitbucket_64-3a529c7ffe2d1275cf8bc9a4cdf0d65f.png&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *44 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *44 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg HTTP/1.1", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *57 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *57 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *57 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:55:31 [error] 22838#0: *57 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638,590103741729,753228616684,80971251200,661107195996,339333411404,735739030034], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/assets/logo-5cc72b2e66488ef7469d4e5d39f56346.svg&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com", referrer: "http://mars.datasection.com/gitlab/users/sign_in"
+2018/10/12 20:56:40 [error] 22838#0: *61 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:56:40 [error] 22838#0: *61 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/ HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 20:56:40 [error] 22838#0: *64 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:56:40 [error] 22838#0: *64 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:56:40 [error] 22838#0: *64 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 20:56:40 [error] 22838#0: *64 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638,590103741729,753228616684,80971251200,661107195996,339333411404,735739030034,426686807861], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"

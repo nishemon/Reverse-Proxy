@@ -1,3 +1,4 @@
+local cjson = require 'cjson'
 -- str1がstr2に前方一致するか検証
 function regexp(str1, str2)
   pattern = "^"..str2.."[/\\?]+.*"
@@ -18,7 +19,23 @@ function basic_authentication(v)
 end
 
 function ldap_authentication(v)
-  return true
+  local allow = false
+  if ngx.var["cookie_hash"] ~= nil then
+    local hash_list = ngx.shared.hash_list
+    local value, flags = hash_list:get("hash_list")
+    if not value then
+      allow = false
+    else
+      json = cjson.decode(value)
+      for index, value in pairs(json) do
+        if tonumber(value) == tonumber(ngx.var["cookie_hash"]) then
+          allow = true
+          break
+        end
+      end
+    end
+  end
+  return allow
 end
 
 local mysql = require "resty.mysql"
@@ -52,8 +69,6 @@ else ngx.var.upstream = ngx.var.host end
 
 local allow_unindexed_path = false
 
-ngx.log(ngx.ERR, "allow_unindexed_path: ", allow_unindexed_path)
-
 for k, v in pairs(res) do
   if v ~= nil and regexp(ngx.var.document_uri, v.src) then
     allow_unindexed_path = true
@@ -64,9 +79,20 @@ for k, v in pairs(res) do
     if v.auth_type == 'basic' then
       ngx.header['WWW-Authenticate'] = 'Basic realm="Secret Zone"'
       if not basic_authentication(v) then ngx.exit(401) end
+
     elseif v.auth_type == 'ldap' then
-      ngx.header['WWW-Authenticate'] = 'Basic realm="Secret Zone"'
-      if not ldap_authentication(v) then ngx.exit(401) end
+      -- cookieが無かったら'/ldap-auth'へ飛ばす
+      if not ldap_authentication(v) then
+        ngx.log(ngx.ERR, "NO cookie !!!!!!")
+        if ngx.var.args ~= nil and not ngx.var.arg_path and not ngx.var.arg_domain then
+          ngx.var.args = ngx.var.args .. "&path=" .. ngx.var.document_uri .. "&domain=" .. ngx.var.host
+        else
+          ngx.var.args = "path=" .. ngx.var.document_uri .. "&domain=" .. ngx.var.host
+        end
+        ngx.log(ngx.ERR, "ngx.var.args: ", ngx.var.args)
+        ngx.var.upstream = 'localhost'
+        ngx.req.set_uri('/ldap-auth')
+      end
     end
   end
 end
@@ -75,8 +101,6 @@ if not allow_unindexed_path then
   ngx.var.upstream = "www.datasection.co.jp"
   ngx.req.set_uri("/")
 end
-
-ngx.log(ngx.ERR, "ngx.var.upstream: ", ngx.var.upstream, ", ngx.var.document_uri: ", ngx.var.document_uri)
 
 local ok, err = db:set_keepalive(10000, 100)
 if not ok then
