@@ -8,19 +8,16 @@ function regexp(str1, str2)
 end
 
 function basic_authentication(v)
-  local allow = false
-  if ngx.var.http_authorization then
-    local basic_auth = ngx.decode_base64(string.match(ngx.var.http_authorization, "^Basic (.*)"))
-    local user = string.match(basic_auth, "^(.+):.+$")
-    local pass = string.match(basic_auth, "^.+:(.+)$")
-    if user == v.username and pass == v.password then allow = true end
+  if not ngx.var.http_authorization then
+    return false
   end
-  return allow
+  local basic_auth = ngx.decode_base64(string.match(ngx.var.http_authorization, "^Basic (.*)"))
+  return basic_auth == (v.username .. ":" .. v.password)
 end
 
 function ldap_authentication(v)
   local allow = false
-  if ngx.var["cookie_hash"] ~= nil then
+  if ngx.var.cookie_hash then
     local hash_list = ngx.shared.hash_list
     local value, flags = hash_list:get("hash_list")
     if not value then
@@ -73,22 +70,18 @@ for k, v in pairs(res) do
   if v ~= nil and regexp(ngx.var.document_uri, v.src) then
     allow_unindexed_path = true
     -- pathを更新
-    out_path = (string.format("%s", v.dest) ~= 'userdata: NULL') and v.dest or v.src
+    out_path = (v.dest ~= ngx.null) and v.dest or v.src
     if v.src ~= out_path and out_path ~= ngx.var.document_uri then ngx.req.set_uri(out_path) end
 
     if v.auth_type == 'basic' then
       ngx.header['WWW-Authenticate'] = 'Basic realm="Secret Zone"'
-      if not basic_authentication(v) then ngx.exit(401) end
+      if not basic_authentication(v) then ngx.exit(ngx.HTTP_UNAUTHORIZED) end
 
     elseif v.auth_type == 'ldap' then
       -- cookieが無かったら'/ldap-auth'へ飛ばす
       if not ldap_authentication(v) then
         ngx.log(ngx.ERR, "NO cookie !!!!!!")
-        if ngx.var.args ~= nil and not ngx.var.arg_path and not ngx.var.arg_domain then
-          ngx.var.args = ngx.var.args .. "&path=" .. ngx.var.document_uri .. "&domain=" .. ngx.var.host
-        else
-          ngx.var.args = "path=" .. ngx.var.document_uri .. "&domain=" .. ngx.var.host
-        end
+        ngx.var.args = ngx.encode_args({redirect = ngx.escape_uri(ngx.var.request_uri)})
         ngx.log(ngx.ERR, "ngx.var.args: ", ngx.var.args)
         ngx.var.upstream = 'localhost'
         ngx.req.set_uri('/ldap-auth')
