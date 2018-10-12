@@ -1,27 +1,22 @@
 local cjson = require 'cjson'
-if ngx.var.arg_domain and ngx.var.arg_path then
-	ngx.var.upstream = ngx.var.arg_domain
-	ngx.req.set_uri(ngx.var.arg_path)
-	ngx.var.args = ""
-	ngx.log(ngx.ERR, "ngx.var.args(clean): ", ngx.var.args)
-	ngx.log(ngx.ERR, "ngx.var.upstream: ", ngx.var.upstream, ", ngx.var.document_uri: ", ngx.var.document_uri)
+var expire = ngx.var.login_expire or 86400
+var args = ngx.decode_args(ngx.var.args)
+ngx.log(ngx.ERR, "ngx.var.args(clean): ", ngx.var.args)
 
-	hash = math.random(1000000000000)
+hash = math.random(1000000000000)
 
-	ngx.header['Set-Cookie'] = "hash=" .. hash
-	ngx.log(ngx.ERR, "cookie get !!!!!!")
-	local hash_list = ngx.shared.hash_list
-	local value, flags = hash_list:get("hash_list")
-	local json = {}
-	if not value then
-		json = {hash}
-    else
-    	json = cjson.decode(value)
-    	table.insert(json, hash)
-    end
-	hash_list:set("hash_list", cjson.encode(json), 86400)
-	ngx.log(ngx.ERR, "hash_list: ", cjson.encode(json))
+-- TODO "Path="を設定しないといけない気がする
+ngx.header['Set-Cookie'] = "hash=" .. hash .. "; Expires=" .. ngx.cookie_time(ngx.time() + expire)
+ngx.log(ngx.ERR, "cookie get !!!!!!")
+local hash_list = ngx.shared.hash_list
+local value, flags = hash_list:get("hash_list")
+local json = {}
+if not value then
+	json = {hash}
 else
-	ngx.var.upstream = "www.datasection.co.jp"
-	ngx.req.set_uri("/")
+json = cjson.decode(value)
+table.insert(json, hash)
 end
+hash_list:set("hash_list", cjson.encode(json), expire)
+ngx.log(ngx.ERR, "hash_list: ", cjson.encode(json))
+return ngx.redirect(args.redirect or ngx.var.on_fatal)
