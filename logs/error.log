@@ -6717,3 +6717,33 @@ coroutine 0:
 2018/10/12 20:56:40 [error] 22838#0: *64 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
 2018/10/12 20:56:40 [error] 22838#0: *64 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
 2018/10/12 20:56:40 [error] 22838#0: *64 [lua] redirect.lua:23: hash_list: [794206292432,794206292432,698852465638,590103741729,753228616684,80971251200,661107195996,339333411404,735739030034,426686807861], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:11:56 [notice] 23105#0: signal process started
+2018/10/12 21:11:56 [alert] 22838#0: *12 open socket #12 left in connection 1
+2018/10/12 21:11:56 [alert] 22838#0: aborting
+2018/10/12 21:12:12 [notice] 23148#0: signal process started
+2018/10/12 21:12:17 [notice] 23235#0: signal process started
+2018/10/12 21:12:18 [alert] 23192#0: *1 open socket #10 left in connection 1
+2018/10/12 21:12:18 [alert] 23192#0: aborting
+2018/10/12 21:12:46 [error] 23238#0: *3 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *3 [lua] proxy.lua:92: ngx.var.args: path=/gitlab&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *7 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *7 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *7 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *7 [lua] redirect.lua:23: hash_list: [794206292432], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *3 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *3 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/users/sign_in&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", upstream: "http://[::1]:80/ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *12 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *12 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *12 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:12:46 [error] 23238#0: *12 [lua] redirect.lua:23: hash_list: [794206292432,698852465638], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:13:16 [error] 23238#0: *3 [lua] proxy.lua:86: NO cookie !!!!!!, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 21:13:16 [error] 23238#0: *3 [lua] proxy.lua:92: ngx.var.args: path=/gitlab/users/sign_in&domain=mars.datasection.com, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", host: "mars.datasection.com"
+2018/10/12 21:13:16 [error] 23238#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.22, server: , request: "GET /gitlab/users/sign_in HTTP/1.1", upstream: "http://[::1]:80/ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com", host: "mars.datasection.com"
+2018/10/12 21:13:16 [error] 23238#0: *17 [lua] redirect.lua:6: ngx.var.args(clean): , client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:13:16 [error] 23238#0: *17 [lua] redirect.lua:7: ngx.var.upstream: mars.datasection.com, ngx.var.document_uri: /gitlab/users/sign_in, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:13:16 [error] 23238#0: *17 [lua] redirect.lua:12: cookie get !!!!!!, client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:13:16 [error] 23238#0: *17 [lua] redirect.lua:23: hash_list: [590103741729], client: 127.0.0.1, server: , request: "GET /ldap-auth?path=/gitlab/users/sign_in&domain=mars.datasection.com HTTP/1.0", host: "mars.datasection.com"
+2018/10/12 21:14:05 [notice] 23337#0: signal process started
+2018/10/12 21:14:05 [alert] 23238#0: *2 open socket #12 left in connection 1
+2018/10/12 21:14:05 [alert] 23238#0: aborting

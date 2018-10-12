@@ -19,7 +19,7 @@ if ngx.var.arg_domain and ngx.var.arg_path then
     	json = cjson.decode(value)
     	table.insert(json, hash)
     end
-	hash_list:set("hash_list", cjson.encode(json))
+	hash_list:set("hash_list", cjson.encode(json), 86400)
 	ngx.log(ngx.ERR, "hash_list: ", cjson.encode(json))
 else
 	ngx.var.upstream = "www.datasection.co.jp"
