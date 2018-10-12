@@ -54,7 +54,7 @@ if not ok then
   return
 end
 
-res, err, errno, sqlstate = db:query(string.format("select domain.vhost, domain.phost, domain.deny, path.src, path.dest, path.auth_type, auth_user.username, auth_user.password from domain left join path on domain.id=path.domain_id left join path_user on path.id=path_user.path_id left join auth_user on path_user.user_id=auth_user.id where vhost='%s'", ngx.var.host))
+res, err, errno, sqlstate = db:query(string.format("select domain.vhost, domain.phost, domain.deny, path.src, path.dest, path.auth_type, auth_user.username, auth_user.password from domain left join path on domain.id=path.domain_id left join path_user on path.id=path_user.path_id left join auth_user on path_user.user_id=auth_user.id where vhost=%s", ngx.quote_sql_str(ngx.var.host)))
 if not res then
   ngx.log(ngx.ERR, "bad result: ", err, ": ", errno, ": ", sqlstate, ".")
   return
